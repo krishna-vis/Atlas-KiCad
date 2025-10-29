@@ -800,32 +800,31 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EPC_FETs:EPC2001C"
+		(symbol "EPC_FETs:EPC2066"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 3.6576 1.8796 0)
+				(at 3.4036 1.8796 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "EPC2001C"
-				(at 8.0264 -0.1016 0)
+			(property "Value" "EPC2066"
+				(at 7.1628 -0.1016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "EPC_FETs:D0188"
-				(at 6.35 -3.6068 0)
+			(property "Footprint" "EPC_FETs:D0650"
+				(at 5.8928 -3.6576 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(color 0 0 194 1)
 					)
 					(hide yes)
 				)
@@ -839,16 +838,15 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "100V 7mE 36A"
-				(at 10.3124 -1.9304 0)
+			(property "Description" "40V 1.1mE 90A"
+				(at 10.3124 -1.9812 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(color 0 0 194 1)
 					)
 				)
 			)
-			(property "ki_fp_filters" "D0188"
+			(property "ki_fp_filters" "D0650"
 				(at 0 0 0)
 				(effects
 					(font
@@ -857,7 +855,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "EPC2001C_1_0"
+			(symbol "EPC2066_1_0"
 				(polyline
 					(pts
 						(xy -5.08 0) (xy -3.302 0)
@@ -1125,6 +1123,168 @@
 				(pin open_collector line
 					(at 0 7.62 270)
 					(length 2.54)
+					(name "D6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "D7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "D8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "D9"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "D10"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "D11"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "D12"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "D13"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "D14"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 0 7.62 270)
+					(length 2.54)
 					(name "D1"
 						(effects
 							(font
@@ -1150,7 +1310,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "4"
 						(effects
 							(font
 								(size 0 0)
@@ -1186,7 +1346,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "8"
 						(effects
 							(font
 								(size 0 0)
@@ -1197,7 +1357,7 @@
 				(pin open_emitter line
 					(at 0 -7.62 90)
 					(length 2.54)
-					(name "S4"
+					(name "S5"
 						(effects
 							(font
 								(size 0 0)
@@ -1215,14 +1375,68 @@
 				(pin open_emitter line
 					(at 0 -7.62 90)
 					(length 2.54)
-					(name "Sub"
+					(name "S6"
 						(effects
 							(font
 								(size 0 0)
 							)
 						)
 					)
-					(number "2"
+					(number "13"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "S7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "S8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "S9"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "18"
 						(effects
 							(font
 								(size 0 0)
@@ -1240,7 +1454,115 @@
 							)
 						)
 					)
-					(number "4"
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "S10"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "S11"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "S12"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "S13"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "S14"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "Sub"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "30"
 						(effects
 							(font
 								(size 0 0)
@@ -1258,7 +1580,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "5"
 						(effects
 							(font
 								(size 0 0)
@@ -1276,7 +1598,25 @@
 							)
 						)
 					)
-					(number "8"
+					(number "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "S4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 0 0)
@@ -2359,12 +2699,6 @@
 		)
 	)
 	(junction
-		(at 54.61 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "074375a8-75fa-406f-8847-a0fdeeff7d45")
-	)
-	(junction
 		(at 68.58 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2375,12 +2709,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a719bfa-3f45-457f-a386-c0bee50f5e1f")
-	)
-	(junction
-		(at 85.09 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f000436-f071-48ed-98a7-8c3b415b5050")
 	)
 	(junction
 		(at 119.38 104.14)
@@ -2455,6 +2783,12 @@
 		(uuid "8ba98a8d-5efc-4ddd-aaa5-e18a99db7003")
 	)
 	(junction
+		(at 85.09 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90bf7459-d850-4b41-81d2-e2a3575f1cfc")
+	)
+	(junction
 		(at 139.7 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2507,6 +2841,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b36e637c-a35b-45e4-b29d-7a0bdb4969f7")
+	)
+	(junction
+		(at 54.61 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b40bf3e8-225d-42d2-a87c-390730d0fc69")
 	)
 	(junction
 		(at 228.6 111.76)
@@ -5060,6 +5400,157 @@
 		)
 	)
 	(symbol
+		(lib_id "EPC_FETs:EPC2066")
+		(at 85.09 115.57 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47e60568-74a1-451d-bbcf-90bc94387bec")
+		(property "Reference" "Q1"
+			(at 85.09 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EPC2066"
+			(at 85.09 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EPC_FETs:D0650"
+			(at 81.4324 109.6772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1.1mE 90A"
+			(at 85.09 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "11"
+			(uuid "75618d1e-32f9-413f-bbf7-16b2e2044a70")
+		)
+		(pin "1"
+			(uuid "45ff645d-f15a-4554-91f1-ba56a1582deb")
+		)
+		(pin "3"
+			(uuid "721df112-ed9d-47f5-b4a5-7b7aadc64a03")
+		)
+		(pin "23"
+			(uuid "fecf192a-0cae-480c-b136-1a60c8c0f021")
+		)
+		(pin "7"
+			(uuid "ca339c22-f5c2-4769-ade4-b0189d01d9e2")
+		)
+		(pin "24"
+			(uuid "594f8207-2ab4-4069-b5b6-7e8169419662")
+		)
+		(pin "20"
+			(uuid "309074a4-9912-4a16-9c08-cd2238920d6c")
+		)
+		(pin "4"
+			(uuid "6f1f0c10-9241-4a98-a977-f243c74123cd")
+		)
+		(pin "27"
+			(uuid "73d8ab51-e9e2-4b2a-9781-8802240a8ee2")
+		)
+		(pin "19"
+			(uuid "9eb124f2-ac48-4352-8dde-41a109303196")
+		)
+		(pin "15"
+			(uuid "3c7962fe-261b-4950-b0a5-2d01a269cc14")
+		)
+		(pin "28"
+			(uuid "6a30d771-6850-4ffd-a6f1-65db0a710943")
+		)
+		(pin "12"
+			(uuid "09421f4c-e6be-44f2-b7c4-88a01303920c")
+		)
+		(pin "16"
+			(uuid "fc7b4532-7b58-48e9-80b0-b40967e0e5f1")
+		)
+		(pin "8"
+			(uuid "afd7ce0a-2c2f-4d3a-a1af-da6eefbc755a")
+		)
+		(pin "10"
+			(uuid "11686f56-2bf8-4462-92f6-417355983343")
+		)
+		(pin "13"
+			(uuid "a375afab-f951-4f24-9ef4-e7fb05037c3e")
+		)
+		(pin "14"
+			(uuid "2891a950-fbf4-48be-b0ea-7084119db261")
+		)
+		(pin "17"
+			(uuid "cb2c9e21-c606-4d12-b087-0f348cb73083")
+		)
+		(pin "18"
+			(uuid "1a35e4e6-dcf5-45b6-97a6-03edba4285e1")
+		)
+		(pin "2"
+			(uuid "5f011007-c964-46ae-b078-3924305f5d15")
+		)
+		(pin "21"
+			(uuid "4ce7602c-8680-4e9c-b921-3e6f6b42b3f8")
+		)
+		(pin "22"
+			(uuid "37d63137-3420-48b7-b651-3c581c445705")
+		)
+		(pin "25"
+			(uuid "aee6e814-9833-4b02-a0c4-e83b7148e8cd")
+		)
+		(pin "26"
+			(uuid "0e7b0cce-43f5-4392-9128-e2d7c88dd572")
+		)
+		(pin "29"
+			(uuid "abd539d9-8187-4c22-a67a-1f1ac8a57389")
+		)
+		(pin "30"
+			(uuid "39f6d84a-9353-4b7a-8baa-df45ae43a7d6")
+		)
+		(pin "5"
+			(uuid "f1acc235-2d01-426f-97e6-1afa0e3b9be9")
+		)
+		(pin "6"
+			(uuid "a4a20751-8f5b-4811-a927-507f54dd0443")
+		)
+		(pin "9"
+			(uuid "67cf94d2-459b-48c0-bc1d-2436072494d6")
+		)
+		(instances
+			(project "GaN-LTC7891"
+				(path "/7f2baae8-823e-4e28-b900-0a7e85154029"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 77.47 64.77 90)
 		(unit 1)
@@ -6092,105 +6583,6 @@
 		)
 	)
 	(symbol
-		(lib_id "EPC_FETs:EPC2001C")
-		(at 85.09 115.57 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "72b6f3bb-79a0-445e-9c32-79e57f74b6a6")
-		(property "Reference" "T_GANFET"
-			(at 84.836 107.696 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "EPC2001C"
-			(at 83.566 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "EPC_FETs:D0188"
-			(at 81.4832 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(color 0 0 194 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 7mE 36A"
-			(at 83.566 109.728 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(color 0 0 194 1)
-				)
-				(justify left)
-			)
-		)
-		(pin "6"
-			(uuid "d82dc493-8648-4c4d-95cb-672aa0a55d31")
-		)
-		(pin "4"
-			(uuid "f432a619-d610-4be8-b2b0-a159caf1f9f4")
-		)
-		(pin "2"
-			(uuid "9e5147db-b833-4508-8eb1-be276984e138")
-		)
-		(pin "8"
-			(uuid "2688e796-603a-444c-9bb7-b8343c315c0c")
-		)
-		(pin "3"
-			(uuid "a5f71578-86a8-424b-9067-0b1f2b73791a")
-		)
-		(pin "11"
-			(uuid "9594ecde-8666-4286-8423-72a6cc0297db")
-		)
-		(pin "1"
-			(uuid "b99a235f-85e9-4c03-9a8a-7a8350ca620c")
-		)
-		(pin "9"
-			(uuid "4e7854ca-4ca6-419a-9580-9a808272b644")
-		)
-		(pin "10"
-			(uuid "5bfe5c85-f0bc-4fec-83aa-3fcae55d440c")
-		)
-		(pin "5"
-			(uuid "d7ac92a3-bbbe-4539-9cf8-e3e9da8b6edc")
-		)
-		(pin "7"
-			(uuid "ee41a149-e52c-45f3-9c07-40421dfa2091")
-		)
-		(instances
-			(project ""
-				(path "/7f2baae8-823e-4e28-b900-0a7e85154029"
-					(reference "T_GANFET")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 142.24 63.5 0)
 		(unit 1)
@@ -7126,6 +7518,157 @@
 		)
 	)
 	(symbol
+		(lib_id "EPC_FETs:EPC2066")
+		(at 54.61 115.57 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae984cc2-3119-4607-a49b-b20a505c911b")
+		(property "Reference" "Q2"
+			(at 54.61 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EPC2066"
+			(at 54.61 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EPC_FETs:D0650"
+			(at 50.9524 109.6772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1.1mE 90A"
+			(at 54.61 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "11"
+			(uuid "0f4e65e4-dfe1-40aa-9152-ea1a8764815f")
+		)
+		(pin "1"
+			(uuid "abe2f28a-a864-4874-9832-7675ec1a08f5")
+		)
+		(pin "3"
+			(uuid "aa9c7b37-2026-4921-b892-13192d9ad9b6")
+		)
+		(pin "23"
+			(uuid "958f7019-30c6-4655-ba2d-0e13e634a316")
+		)
+		(pin "7"
+			(uuid "56df6dc0-2821-476d-9580-39a73a99adc6")
+		)
+		(pin "24"
+			(uuid "6c50a11f-5492-4469-a0a9-c3d1af78d193")
+		)
+		(pin "20"
+			(uuid "f88eccdc-5019-4842-a8c6-07612926e45a")
+		)
+		(pin "4"
+			(uuid "df9e71fa-8d8c-45ee-89b0-5129577bed71")
+		)
+		(pin "27"
+			(uuid "ad5bcd7f-2634-49e4-adb6-5545196959a3")
+		)
+		(pin "19"
+			(uuid "4303b3c0-e865-4540-8ea5-23503eb290c5")
+		)
+		(pin "15"
+			(uuid "1773f3ba-4bbd-44f1-8103-7d005de64ca5")
+		)
+		(pin "28"
+			(uuid "984b9ac9-b64a-439c-bba4-6c120edc296e")
+		)
+		(pin "12"
+			(uuid "97eff6e2-1a79-4343-9f64-9941121cac9d")
+		)
+		(pin "16"
+			(uuid "d29bded5-3ec5-4527-8bf2-5990eec5fba6")
+		)
+		(pin "8"
+			(uuid "7dc09221-a440-46fd-a064-1dce16b567a3")
+		)
+		(pin "10"
+			(uuid "96ba0def-56bd-4e9e-bd9d-cef107fda917")
+		)
+		(pin "13"
+			(uuid "c291a13e-a316-4625-a8f2-71dc2cdd475b")
+		)
+		(pin "14"
+			(uuid "39cc6705-28f5-4800-83b5-5208f61c4260")
+		)
+		(pin "17"
+			(uuid "0ffb6d29-7e42-4b61-841a-3d040aac49d7")
+		)
+		(pin "18"
+			(uuid "8d26f6b2-d111-42b9-8d06-78bf80645e99")
+		)
+		(pin "2"
+			(uuid "6ecf6844-bfa8-4e00-813c-4a88fb84cb4b")
+		)
+		(pin "21"
+			(uuid "f0f7798c-927c-49d4-b2ab-30f6949a0639")
+		)
+		(pin "22"
+			(uuid "b650cb32-f9ad-4ae6-9ff5-151440ed14c7")
+		)
+		(pin "25"
+			(uuid "3cc61ae1-f0b5-4197-91ca-9f833181529e")
+		)
+		(pin "26"
+			(uuid "fdc5cafa-4ec2-44b3-b9df-0d183088766d")
+		)
+		(pin "29"
+			(uuid "f053c591-ff82-46f5-a631-9816fee651d6")
+		)
+		(pin "30"
+			(uuid "ea290f31-093e-4e31-bf78-25c21b925b8a")
+		)
+		(pin "5"
+			(uuid "97518297-c707-46e1-9de0-6154cc7b142b")
+		)
+		(pin "6"
+			(uuid "f90bf05a-02fd-4e41-8836-5beb3a706fdc")
+		)
+		(pin "9"
+			(uuid "865cc644-0b99-4fcb-b4cc-8a20c9622f0a")
+		)
+		(instances
+			(project "GaN-LTC7891"
+				(path "/7f2baae8-823e-4e28-b900-0a7e85154029"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 148.59 115.57 0)
 		(unit 1)
@@ -7597,105 +8140,6 @@
 			(project "GaN"
 				(path "/7f2baae8-823e-4e28-b900-0a7e85154029"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EPC_FETs:EPC2001C")
-		(at 54.61 115.57 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ef5afc76-78f2-4196-a246-c60f6772f917")
-		(property "Reference" "B_GANFET"
-			(at 50.546 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "EPC2001C"
-			(at 50.292 111.506 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "EPC_FETs:D0188"
-			(at 51.0032 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(color 0 0 194 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 7mE 36A"
-			(at 48.768 109.474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(color 0 0 194 1)
-				)
-				(justify left)
-			)
-		)
-		(pin "6"
-			(uuid "ee206221-3095-46e9-8a40-5ef8fa608c64")
-		)
-		(pin "4"
-			(uuid "d18ee26a-cf79-4816-b7b2-1269645b8e54")
-		)
-		(pin "2"
-			(uuid "9a3f4b6a-765d-42c5-960f-dbdbb53a58c1")
-		)
-		(pin "8"
-			(uuid "bf83fd46-d09f-4145-a3bd-b8cf1eaeec0a")
-		)
-		(pin "3"
-			(uuid "2d452e15-5066-49c3-aab3-3d42e312ea16")
-		)
-		(pin "11"
-			(uuid "3e3ae9d0-be45-4fa6-ab5e-d69270c00c3d")
-		)
-		(pin "1"
-			(uuid "067466c2-12bd-4abd-a5ff-3a5af45cee97")
-		)
-		(pin "9"
-			(uuid "55cd7665-de1c-4256-a8cc-2469f3120188")
-		)
-		(pin "10"
-			(uuid "0ff5eee9-a977-409c-93d9-3cfca9141ef2")
-		)
-		(pin "5"
-			(uuid "905fb0ac-e264-49e6-969b-19c1846d8688")
-		)
-		(pin "7"
-			(uuid "87c477aa-696b-4f2e-8017-1b18f1df47d0")
-		)
-		(instances
-			(project "GaN"
-				(path "/7f2baae8-823e-4e28-b900-0a7e85154029"
-					(reference "B_GANFET")
 					(unit 1)
 				)
 			)
