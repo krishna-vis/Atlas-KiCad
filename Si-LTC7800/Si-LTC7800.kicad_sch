@@ -175,6 +175,320 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BSC100N06LS3_G:BSC100N06LS3_G"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BSC100N06LS3_G"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "BSC100N06LS3G"
+				(at 21.59 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.cn/datasheet/2/196/Infineon-BSC100N06LS3-DS-v02_03-en-1225571.pdf"
+				(at 21.59 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "MOSFET N-Ch 60V 50A TDSON-8 OptiMOS 3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "MOSFET N-Ch 60V 50A TDSON-8 OptiMOS 3"
+				(at 21.59 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.1"
+				(at 21.59 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Infineon"
+				(at 21.59 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "BSC100N06LS3 G"
+				(at 21.59 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "726-BSC100N06LS3G"
+				(at 21.59 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSC100N06LS3-G?qs=wK%252BoHS4yu57c7s635lvXlg%3D%3D"
+				(at 21.59 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 21.59 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 21.59 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "BSC100N06LS3_G_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "S_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "S_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "S_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "D_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "D_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "D_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "D_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -7.62 180)
+					(length 5.08)
+					(name "D_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "BSC100N06LS3_G_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 20.32 2.54) (xy 20.32 -12.7) (xy 5.08 -12.7) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CMPD6001_TR_PBFREE:CMPD6001_TR_PBFREE"
 			(pin_names
 				(offset 0.762)
@@ -614,331 +928,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "DMP2045U-7:DMP2045U-7"
-			(pin_names
-				(offset 0.762)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 11.43 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "DMP2045U-7"
-				(at 11.43 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "SOT96P240X115-3N"
-				(at 11.43 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMP2045U.pdf"
-				(at 11.43 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "DMP2045U-7 P-Channel MOSFET, 3.5 (State) A, 4.3 (Steady) A, 20 V, 3-Pin SOT-23 Diodes Inc"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "DMP2045U-7 P-Channel MOSFET, 3.5 (State) A, 4.3 (Steady) A, 20 V, 3-Pin SOT-23 Diodes Inc"
-				(at 11.43 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.15"
-				(at 11.43 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Diodes Incorporated"
-				(at 11.43 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "DMP2045U-7"
-				(at 11.43 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "621-DMP2045U-7"
-				(at 11.43 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMP2045U-7?qs=rrS6PyfT74erdUwo5CgHTg%3D%3D"
-				(at 11.43 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "DMP2045U-7"
-				(at 11.43 -21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/dmp2045u-7/diodes-incorporated?utm_currency=USD&region=nac"
-				(at 11.43 -24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "DMP2045U-7_0_0"
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 10.16 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "DMP2045U-7_0_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0) (xy 5.08 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 5.588) (xy 5.842 4.572)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 2.032) (xy 5.842 3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 -0.508) (xy 5.842 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.35 2.54)
-					(radius 3.81)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 5.842 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 5.842 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 7.62 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 6.604 3.048) (xy 6.604 2.032) (xy 7.62 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
@@ -2303,16 +2292,22 @@
 		(uuid "03a2b07b-53af-47ce-9ea6-b9667f3aabb8")
 	)
 	(junction
-		(at 177.8 90.17)
+		(at 201.93 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "03cb9f68-bcff-4e19-850f-ecb22bce7de2")
+		(uuid "04e1b598-9b8c-4fee-9bb9-249848a2011b")
 	)
 	(junction
 		(at 83.82 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10bde2de-1f77-4b2d-815c-6adaae5af6e6")
+	)
+	(junction
+		(at 176.53 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1543852f-930a-40e6-8906-0d4ac68cfbeb")
 	)
 	(junction
 		(at 142.24 63.5)
@@ -2333,6 +2328,12 @@
 		(uuid "1d4ff5d9-18cc-4065-bcae-a533ef93b5a5")
 	)
 	(junction
+		(at 195.58 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ea6b703-367a-4dee-adda-6b9a5fac189a")
+	)
+	(junction
 		(at 236.22 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2349,6 +2350,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a37b75d-fd76-4a1e-8af8-06e09a390005")
+	)
+	(junction
+		(at 195.58 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b3cf7e8-f068-4afd-b012-bec9249002e7")
 	)
 	(junction
 		(at 100.33 101.6)
@@ -2369,10 +2376,22 @@
 		(uuid "400a2087-5291-4573-a9ad-19867c0b1dce")
 	)
 	(junction
+		(at 170.18 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "407f9b23-5c6d-41cf-a485-82c2c2ae3bdf")
+	)
+	(junction
 		(at 177.8 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41483917-9116-4371-9f16-7499f95fe5fa")
+	)
+	(junction
+		(at 170.18 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43e36c24-df28-482e-9fa5-42f4ffde919b")
 	)
 	(junction
 		(at 222.25 121.92)
@@ -2393,16 +2412,22 @@
 		(uuid "5b5ed611-82de-4e7f-9bb5-1d1cb15739b6")
 	)
 	(junction
-		(at 177.8 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c21e84c-d5a1-4f47-bc01-4ebc7d01d630")
-	)
-	(junction
 		(at 83.82 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ced4773-9b06-4f26-8930-3da0f1f9a9a5")
+	)
+	(junction
+		(at 172.72 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6469e4d6-eb4a-489a-be60-e9cbd2369534")
+	)
+	(junction
+		(at 176.53 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6529ab48-c395-49aa-a652-9a8fb4c12c9a")
 	)
 	(junction
 		(at 236.22 96.52)
@@ -2421,6 +2446,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8318cfaa-6dbd-4014-98f2-07544d2d7f24")
+	)
+	(junction
+		(at 177.8 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87bbe1df-2f2b-46d8-bf7c-d382787fff9c")
 	)
 	(junction
 		(at 102.87 129.54)
@@ -2447,16 +2478,40 @@
 		(uuid "8def3edc-c5e3-4a5a-995f-897eb62d8006")
 	)
 	(junction
+		(at 176.53 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9612dd43-0e43-4342-8c9a-50d5b2b6538d")
+	)
+	(junction
 		(at 87.63 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5f85d93-b986-4774-ba61-333d575d058d")
 	)
 	(junction
+		(at 195.58 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7c9ba73-e5cc-4683-9678-b49bc1d4bbfb")
+	)
+	(junction
+		(at 201.93 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b332534a-98fd-4c6f-9070-d23f3193ff39")
+	)
+	(junction
 		(at 92.71 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b67db155-8b37-4cce-89b0-4a0fa45d344d")
+	)
+	(junction
+		(at 201.93 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba3a248d-7a4c-48ba-b6e4-a50531d88fbf")
 	)
 	(junction
 		(at 80.01 132.08)
@@ -2531,6 +2586,12 @@
 		(uuid "edb1e716-fdbc-4024-980b-2b13b2d99fa2")
 	)
 	(junction
+		(at 177.8 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f107a5a1-df8c-46bd-af4c-33b0334783a9")
+	)
+	(junction
 		(at 81.28 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2580,7 +2641,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 90.17) (xy 177.8 90.17)
+			(xy 173.99 90.17) (xy 176.53 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2640,16 +2701,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 118.11) (xy 177.8 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a59974d-2585-4328-804c-152cb78c6a74")
-	)
-	(wire
-		(pts
 			(xy 265.43 99.06) (xy 265.43 100.33)
 		)
 		(stroke
@@ -2660,6 +2711,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 80.01) (xy 201.93 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1da5e1c8-62a6-43fc-b4c8-5c23dc9b506f")
+	)
+	(wire
+		(pts
 			(xy 102.87 129.54) (xy 106.68 129.54)
 		)
 		(stroke
@@ -2667,16 +2728,6 @@
 			(type default)
 		)
 		(uuid "22d796cd-c1db-4caf-931a-acdcdcd34048")
-	)
-	(wire
-		(pts
-			(xy 171.45 118.11) (xy 177.8 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "234382d7-64e3-44cd-94bc-3b1691bf6437")
 	)
 	(wire
 		(pts
@@ -2697,6 +2748,16 @@
 			(type default)
 		)
 		(uuid "29697741-5ea7-4691-bf69-cae09b1aedb2")
+	)
+	(wire
+		(pts
+			(xy 177.8 66.04) (xy 177.8 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cc6e93f-2771-4d4e-b004-dc5d0274bb31")
 	)
 	(wire
 		(pts
@@ -2737,6 +2798,16 @@
 			(type default)
 		)
 		(uuid "343b86c7-1d6e-47c4-94ce-8d7f04c92efd")
+	)
+	(wire
+		(pts
+			(xy 170.18 118.11) (xy 170.18 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "358e9c69-11c2-493a-8c98-6e80ca86f00b")
 	)
 	(wire
 		(pts
@@ -2820,6 +2891,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 80.01) (xy 201.93 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3addeac5-b788-4d1c-b245-1f2a801ae9a4")
+	)
+	(wire
+		(pts
 			(xy 265.43 99.06) (xy 274.32 99.06)
 		)
 		(stroke
@@ -2827,6 +2908,16 @@
 			(type default)
 		)
 		(uuid "3bc20581-ee8a-4214-b03a-1842c7c25fcd")
+	)
+	(wire
+		(pts
+			(xy 176.53 82.55) (xy 176.53 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d1bac0a-14e5-4b45-8d9c-da777882afab")
 	)
 	(wire
 		(pts
@@ -2880,6 +2971,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 90.17) (xy 177.8 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c35132-2645-4a15-a657-69df2d13f6a6")
+	)
+	(wire
+		(pts
 			(xy 212.09 113.03) (xy 213.36 113.03)
 		)
 		(stroke
@@ -2930,6 +3031,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 124.46) (xy 172.72 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56043265-43b7-45b9-be6c-0ffa4352d2ab")
+	)
+	(wire
+		(pts
 			(xy 212.09 99.06) (xy 212.09 101.6)
 		)
 		(stroke
@@ -2947,6 +3058,16 @@
 			(type default)
 		)
 		(uuid "58e0a322-e0a9-4e3d-b341-b3c272105b10")
+	)
+	(wire
+		(pts
+			(xy 176.53 87.63) (xy 176.53 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5925a598-4e54-484e-b182-fc322b379fcc")
 	)
 	(wire
 		(pts
@@ -3030,16 +3151,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 73.66) (xy 177.8 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "750943cd-ba99-44c9-9d0b-405cbbab14fa")
-	)
-	(wire
-		(pts
 			(xy 77.47 74.93) (xy 87.63 74.93)
 		)
 		(stroke
@@ -3077,6 +3188,16 @@
 			(type default)
 		)
 		(uuid "77ba439d-d505-46f9-9499-9a133d7a00b5")
+	)
+	(wire
+		(pts
+			(xy 161.29 113.03) (xy 161.29 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "782a0323-0b6a-429f-b8aa-d6e46c8baaf6")
 	)
 	(wire
 		(pts
@@ -3120,6 +3241,26 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 110.49) (xy 170.18 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ca0d209-8c81-44af-a2a1-7fa719898b58")
+	)
+	(wire
+		(pts
+			(xy 177.8 77.47) (xy 176.53 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "803d2e02-6965-48b1-969d-1297555ac5ca")
+	)
+	(wire
+		(pts
 			(xy 257.81 99.06) (xy 265.43 99.06)
 		)
 		(stroke
@@ -3130,6 +3271,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 113.03) (xy 195.58 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84f0dbea-05c4-4089-8c1f-984f8e56541d")
+	)
+	(wire
+		(pts
 			(xy 97.79 135.89) (xy 97.79 142.24)
 		)
 		(stroke
@@ -3137,6 +3288,16 @@
 			(type default)
 		)
 		(uuid "8651dc6f-881b-4372-a6f1-0fabd184626c")
+	)
+	(wire
+		(pts
+			(xy 170.18 104.14) (xy 177.8 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "871a5cc0-9267-499e-91b7-c728a75c122f")
 	)
 	(wire
 		(pts
@@ -3157,6 +3318,16 @@
 			(type default)
 		)
 		(uuid "89e3f9ca-baf1-4430-a1eb-b87ab452c0cb")
+	)
+	(wire
+		(pts
+			(xy 170.18 120.65) (xy 170.18 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e19f850-e205-45e9-8c42-1f181158aee6")
 	)
 	(wire
 		(pts
@@ -3190,6 +3361,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 121.92) (xy 170.18 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95547e28-084c-4927-8559-1d154c270c37")
+	)
+	(wire
+		(pts
 			(xy 236.22 99.06) (xy 236.22 102.87)
 		)
 		(stroke
@@ -3197,6 +3378,16 @@
 			(type default)
 		)
 		(uuid "96e8da4a-d29f-4670-b377-d105f3b729a0")
+	)
+	(wire
+		(pts
+			(xy 201.93 68.58) (xy 177.8 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a860e3a-a1bc-491c-99e3-20ac80861141")
 	)
 	(wire
 		(pts
@@ -3210,7 +3401,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 85.09) (xy 170.18 85.09)
+			(xy 163.83 80.01) (xy 176.53 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3220,13 +3411,23 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 90.17) (xy 163.83 85.09)
+			(xy 163.83 90.17) (xy 163.83 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a3ba6e5d-d0a3-46ef-9351-e8b23a5d5d63")
+	)
+	(wire
+		(pts
+			(xy 195.58 115.57) (xy 195.58 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a53dff1c-e7ad-4a74-9532-ad4e864fb2bf")
 	)
 	(wire
 		(pts
@@ -3247,6 +3448,16 @@
 			(type default)
 		)
 		(uuid "a8e90ca4-4dd9-437b-a98f-d6b2b3fe4730")
+	)
+	(wire
+		(pts
+			(xy 172.72 124.46) (xy 171.45 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a960b75b-062f-4580-bc45-48205c7410b6")
 	)
 	(wire
 		(pts
@@ -3300,6 +3511,26 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 68.58) (xy 177.8 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5dec5d4-a2bb-4a1c-875d-e705e8d34d7e")
+	)
+	(wire
+		(pts
+			(xy 172.72 121.92) (xy 170.18 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbce43c7-265b-4ffe-a08b-f24e90604b34")
+	)
+	(wire
+		(pts
 			(xy 163.83 99.06) (xy 177.8 99.06)
 		)
 		(stroke
@@ -3307,6 +3538,16 @@
 			(type default)
 		)
 		(uuid "bbf5a790-cff2-4217-a54d-fb99be4b6653")
+	)
+	(wire
+		(pts
+			(xy 195.58 113.03) (xy 195.58 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bca64392-7131-4abe-b912-c04af5f8022e")
 	)
 	(wire
 		(pts
@@ -3400,6 +3641,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 118.11) (xy 195.58 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d557f67a-b7e1-4807-a1a2-49da7b254f59")
+	)
+	(wire
+		(pts
 			(xy 87.63 82.55) (xy 87.63 83.82)
 		)
 		(stroke
@@ -3460,6 +3711,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 104.14) (xy 177.8 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e320508d-76bd-4e04-bad1-175b42e33475")
+	)
+	(wire
+		(pts
 			(xy 142.24 52.07) (xy 148.59 52.07)
 		)
 		(stroke
@@ -3470,13 +3731,23 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 99.06) (xy 177.8 102.87)
+			(xy 201.93 85.09) (xy 201.93 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e93d09d0-0408-4022-af5c-dcb2725d3f38")
+		(uuid "e7fcc066-f636-4852-8d7d-993ded06523c")
+	)
+	(wire
+		(pts
+			(xy 176.53 85.09) (xy 176.53 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9e53d9d-eb97-46f7-aff8-f97f2623c560")
 	)
 	(wire
 		(pts
@@ -3520,13 +3791,33 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 113.03) (xy 161.29 118.11)
+			(xy 172.72 125.73) (xy 172.72 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f9eef07d-27fb-49bb-9142-7cc6bb76f461")
+		(uuid "f981db51-9a26-4227-a69f-cd132e5160e9")
+	)
+	(wire
+		(pts
+			(xy 177.8 99.06) (xy 177.8 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb2f5471-edb2-4551-b5d9-cde6068e5242")
+	)
+	(wire
+		(pts
+			(xy 201.93 82.55) (xy 201.93 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc08baea-fe7e-46f7-9a13-42530c386243")
 	)
 	(label "BOOST"
 		(at 144.78 99.06 0)
@@ -3629,7 +3920,7 @@
 		(uuid "54ebe38e-0550-497f-95e1-d59c951cf728")
 	)
 	(label "VIN"
-		(at 177.8 73.66 0)
+		(at 177.8 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3689,7 +3980,7 @@
 		(uuid "bfa97994-14c7-4f25-ae7a-4d14c8488587")
 	)
 	(label "BG"
-		(at 161.29 113.03 180)
+		(at 161.29 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4224,161 +4515,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DMP2045U-7:DMP2045U-7")
-		(at 170.18 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3675f5fc-bf03-4cba-ab43-bc4b365ca103")
-		(property "Reference" "Q2"
-			(at 181.61 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DMP2045U-7"
-			(at 181.61 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Transistor_Power:SOT96P240X115-3N"
-			(at 181.61 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMP2045U.pdf"
-			(at 181.61 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "DMP2045U-7 P-Channel MOSFET, 3.5 (State) A, 4.3 (Steady) A, 20 V, 3-Pin SOT-23 Diodes Inc"
-			(at 170.18 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "DMP2045U-7 P-Channel MOSFET, 3.5 (State) A, 4.3 (Steady) A, 20 V, 3-Pin SOT-23 Diodes Inc"
-			(at 181.61 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.15"
-			(at 181.61 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 181.61 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DMP2045U-7"
-			(at 181.61 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "621-DMP2045U-7"
-			(at 181.61 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMP2045U-7?qs=rrS6PyfT74erdUwo5CgHTg%3D%3D"
-			(at 181.61 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "DMP2045U-7"
-			(at 181.61 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/dmp2045u-7/diodes-incorporated?utm_currency=USD&region=nac"
-			(at 181.61 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5b89eb6f-aba3-4642-81a5-5a506546f4a4")
-		)
-		(pin "1"
-			(uuid "e84d02a9-2001-4dd3-b0c9-b651f2698275")
-		)
-		(pin "3"
-			(uuid "6ad2bea9-3469-4841-a806-2c0e4589e46f")
-		)
-		(instances
-			(project ""
-				(path "/1cd71796-7ea7-422d-abea-f4fbd11d4a75"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 83.82 95.25 0)
 		(unit 1)
@@ -4713,6 +4849,177 @@
 		)
 	)
 	(symbol
+		(lib_id "BSC100N06LS3_G:BSC100N06LS3_G")
+		(at 176.53 87.63 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5fbc61c0-e89e-4d77-bb64-d8dd515510b6")
+		(property "Reference" "Q1"
+			(at 189.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSC100N06LS3_G"
+			(at 189.23 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Transistor_Power:BSC100N06LS3G"
+			(at 198.12 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.cn/datasheet/2/196/Infineon-BSC100N06LS3-DS-v02_03-en-1225571.pdf"
+			(at 198.12 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET N-Ch 60V 50A TDSON-8 OptiMOS 3"
+			(at 176.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "MOSFET N-Ch 60V 50A TDSON-8 OptiMOS 3"
+			(at 198.12 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 198.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 198.12 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BSC100N06LS3 G"
+			(at 198.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "726-BSC100N06LS3G"
+			(at 198.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSC100N06LS3-G?qs=wK%252BoHS4yu57c7s635lvXlg%3D%3D"
+			(at 198.12 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 198.12 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 198.12 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03d5bd1b-e41f-4e6f-8d64-226fac17e50d")
+		)
+		(pin "2"
+			(uuid "013c2285-8785-472a-b83a-1b50b09bcd9e")
+		)
+		(pin "3"
+			(uuid "abf92332-5107-4fa6-a89e-3bee5a8976aa")
+		)
+		(pin "4"
+			(uuid "b33d4edc-e350-4acb-8f0f-1aaf394d5a57")
+		)
+		(pin "5"
+			(uuid "71f43f8c-6b5a-4c7f-9141-b87d4ae89caa")
+		)
+		(pin "6"
+			(uuid "4135474e-69a6-47cc-853f-dbb777869294")
+		)
+		(pin "7"
+			(uuid "1ddb212b-6e26-4832-b014-8dcbd9bbb88d")
+		)
+		(pin "8"
+			(uuid "803d9b22-34ab-4cfe-b4f9-e96db168ea58")
+		)
+		(pin "9"
+			(uuid "a4e5fbc4-cb41-4815-abdb-af43ca291c9b")
+		)
+		(instances
+			(project ""
+				(path "/1cd71796-7ea7-422d-abea-f4fbd11d4a75"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 87.63 72.39 180)
 		(unit 1)
@@ -4987,7 +5294,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_2Pole")
-		(at 166.37 118.11 0)
+		(at 166.37 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4995,7 +5302,7 @@
 		(dnp no)
 		(uuid "6cfaf78c-df2e-4e96-bf1a-787afb7068d2")
 		(property "Reference" "BFET_VGS1"
-			(at 166.116 120.904 0)
+			(at 166.116 126.238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5003,15 +5310,16 @@
 			)
 		)
 		(property "Value" "TestPoint_2Pole"
-			(at 166.37 123.19 0)
+			(at 166.37 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 166.37 118.11 0)
+			(at 166.37 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5020,7 +5328,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 118.11 0)
+			(at 166.37 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5029,7 +5337,7 @@
 			)
 		)
 		(property "Description" "2-polar test point"
-			(at 166.37 118.11 0)
+			(at 166.37 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5458,161 +5766,6 @@
 			(project "Si-LTC7800"
 				(path "/1cd71796-7ea7-422d-abea-f4fbd11d4a75"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DMP2045U-7:DMP2045U-7")
-		(at 170.18 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80f892a0-b3e4-4462-b343-52ba23f10c75")
-		(property "Reference" "Q1"
-			(at 181.61 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DMP2045U-7"
-			(at 181.61 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Transistor_Power:SOT96P240X115-3N"
-			(at 181.61 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMP2045U.pdf"
-			(at 181.61 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "DMP2045U-7 P-Channel MOSFET, 3.5 (State) A, 4.3 (Steady) A, 20 V, 3-Pin SOT-23 Diodes Inc"
-			(at 170.18 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "DMP2045U-7 P-Channel MOSFET, 3.5 (State) A, 4.3 (Steady) A, 20 V, 3-Pin SOT-23 Diodes Inc"
-			(at 181.61 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.15"
-			(at 181.61 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 181.61 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DMP2045U-7"
-			(at 181.61 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "621-DMP2045U-7"
-			(at 181.61 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMP2045U-7?qs=rrS6PyfT74erdUwo5CgHTg%3D%3D"
-			(at 181.61 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "DMP2045U-7"
-			(at 181.61 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/dmp2045u-7/diodes-incorporated?utm_currency=USD&region=nac"
-			(at 181.61 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8b7e539e-66ed-434f-8083-51fe618276f5")
-		)
-		(pin "1"
-			(uuid "5066c25c-c628-414b-9298-72cb993a44a8")
-		)
-		(pin "3"
-			(uuid "d1046ca2-2c5c-4ba5-af2f-bb28930e2081")
-		)
-		(instances
-			(project "Si-LTC7800"
-				(path "/1cd71796-7ea7-422d-abea-f4fbd11d4a75"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -6586,71 +6739,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a4e00b74-afd3-4246-8f5e-04aa88de3984")
-		(property "Reference" "#PWR011"
-			(at 177.8 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 181.864 120.904 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1df3c76-dd16-4a55-bb8a-901f75bb6e95")
-		)
-		(instances
-			(project "Si-LTC7800"
-				(path "/1cd71796-7ea7-422d-abea-f4fbd11d4a75"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 142.24 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6915,6 +7003,243 @@
 			(project "Si-LTC7800"
 				(path "/1cd71796-7ea7-422d-abea-f4fbd11d4a75"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BSC100N06LS3_G:BSC100N06LS3_G")
+		(at 170.18 120.65 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b513b9f4-7592-491f-9e98-d2edad4c12f2")
+		(property "Reference" "Q2"
+			(at 182.88 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSC100N06LS3_G"
+			(at 182.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Transistor_Power:BSC100N06LS3G"
+			(at 191.77 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.cn/datasheet/2/196/Infineon-BSC100N06LS3-DS-v02_03-en-1225571.pdf"
+			(at 191.77 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET N-Ch 60V 50A TDSON-8 OptiMOS 3"
+			(at 170.18 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "MOSFET N-Ch 60V 50A TDSON-8 OptiMOS 3"
+			(at 191.77 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 191.77 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 191.77 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BSC100N06LS3 G"
+			(at 191.77 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "726-BSC100N06LS3G"
+			(at 191.77 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSC100N06LS3-G?qs=wK%252BoHS4yu57c7s635lvXlg%3D%3D"
+			(at 191.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 191.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 191.77 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91d37de4-a689-4df6-bc87-65f69bf0d42f")
+		)
+		(pin "2"
+			(uuid "25fa1f12-b985-4dcb-a7f0-3fa8302edee2")
+		)
+		(pin "3"
+			(uuid "44e06497-e3c6-4411-9991-c000f24fa3b1")
+		)
+		(pin "4"
+			(uuid "8609ad99-c66e-451a-96c4-84cfb3a5c34f")
+		)
+		(pin "5"
+			(uuid "949833d3-af28-48dd-ba83-1cdce3862ffe")
+		)
+		(pin "6"
+			(uuid "8101fb6a-5793-4266-baa2-e016c902ea49")
+		)
+		(pin "7"
+			(uuid "3aafd754-e25d-4f2d-a30b-ba8d74939e23")
+		)
+		(pin "8"
+			(uuid "df2c8d33-da3f-418f-b6fe-97ae12a2379a")
+		)
+		(pin "9"
+			(uuid "c47166e6-bf02-4cdf-8bda-f01723513427")
+		)
+		(instances
+			(project "Si-LTC7800"
+				(path "/1cd71796-7ea7-422d-abea-f4fbd11d4a75"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c16034b9-8979-4417-a554-8269a3404594")
+		(property "Reference" "#PWR011"
+			(at 172.72 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0a933b8-1677-454e-8f33-4ed244c4f4f6")
+		)
+		(instances
+			(project ""
+				(path "/1cd71796-7ea7-422d-abea-f4fbd11d4a75"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
