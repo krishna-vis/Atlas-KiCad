@@ -1,4 +1,4 @@
-26740384087770688
+26742146119096733
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105482,6 +105482,13 @@ voltage transformer ZMPT
 0
 4
 4
+Transistor_Power
+D0650
+
+
+0
+30
+30
 Transistor_Power
 GaN_Systems_GaNPX-3_5x6.6mm_Drain2.93x0.6mm
 GaN Systems GaNPX GS66502B Package, https://gansystems.com/wp-content/uploads/2020/04/GS66502B-DS-Rev-200402.pdf

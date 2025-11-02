@@ -1502,8 +1502,8 @@
 			)
 			(symbol "LTC7800HUDC_PBF_0_0"
 				(rectangle
-					(start -12.7 25.4)
-					(end 12.7 -25.4)
+					(start -12.7 -25.4)
+					(end 12.7 25.4)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2297,7 +2297,7 @@
 		(uuid "02b644d7-a6d6-4f84-be7c-760f82d93f55")
 	)
 	(junction
-		(at 256.54 96.52)
+		(at 242.57 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03a2b07b-53af-47ce-9ea6-b9667f3aabb8")
@@ -2315,22 +2315,10 @@
 		(uuid "10bde2de-1f77-4b2d-815c-6adaae5af6e6")
 	)
 	(junction
-		(at 76.2 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "15a0c671-62a7-4577-b798-d3cba02bd35e")
-	)
-	(junction
 		(at 142.24 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1951a5f4-1381-45db-98ca-18f7858b17a0")
-	)
-	(junction
-		(at 81.28 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b6bc79c-6153-4b14-8aa4-213b666dd11c")
 	)
 	(junction
 		(at 142.24 59.69)
@@ -2387,12 +2375,6 @@
 		(uuid "41483917-9116-4371-9f16-7499f95fe5fa")
 	)
 	(junction
-		(at 64.77 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "471b3e7d-ec64-40fd-ae47-1cbbf5ffd073")
-	)
-	(junction
 		(at 222.25 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2423,19 +2405,7 @@
 		(uuid "5ced4773-9b06-4f26-8930-3da0f1f9a9a5")
 	)
 	(junction
-		(at 81.28 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ed0c80e-cfae-47a2-8824-26a7f9722367")
-	)
-	(junction
-		(at 69.85 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "648fe2c4-a0dd-45a0-8d71-93bc08530e08")
-	)
-	(junction
-		(at 250.19 96.52)
+		(at 236.22 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fea9b3b-6887-4675-8336-1b22c5f1efd3")
@@ -2471,28 +2441,16 @@
 		(uuid "8d25ddd4-baa6-4e2f-9bd2-79431f953d0e")
 	)
 	(junction
-		(at 250.19 88.9)
+		(at 236.22 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8def3edc-c5e3-4a5a-995f-897eb62d8006")
-	)
-	(junction
-		(at 69.85 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2d6be7c-93fb-4c0a-8146-5bb6c22dfe64")
 	)
 	(junction
 		(at 87.63 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5f85d93-b986-4774-ba61-333d575d058d")
-	)
-	(junction
-		(at 76.2 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1249ccd-d724-4047-a8f7-313c22c72172")
 	)
 	(junction
 		(at 92.71 127)
@@ -2513,13 +2471,13 @@
 		(uuid "ce5e594b-a8f2-4078-b02d-fb3e3e07292f")
 	)
 	(junction
-		(at 256.54 99.06)
+		(at 257.81 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d122d283-17fa-4321-b217-618965a94410")
+		(uuid "d32d8f79-8258-4053-8146-9bdaaf6f7959")
 	)
 	(junction
-		(at 256.54 88.9)
+		(at 242.57 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d597937d-7ec2-4a66-bbc6-635f350472e8")
@@ -2537,7 +2495,7 @@
 		(uuid "d9d230a0-2691-48a0-988f-e1d1748bd7d0")
 	)
 	(junction
-		(at 64.77 95.25)
+		(at 81.28 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1f2e345-ddbf-40a9-84f6-593a15c52d16")
@@ -2555,22 +2513,28 @@
 		(uuid "e7b79c5e-9602-4d90-9e53-75311ddfa5ea")
 	)
 	(junction
-		(at 271.78 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8cb8c0c-dd96-4a5c-a90a-e7736530bcc1")
-	)
-	(junction
 		(at 46.99 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea6d6bbc-be5e-46f4-a0a2-e8050d1d8530")
 	)
 	(junction
+		(at 242.57 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebc7b611-e228-419c-b943-d858a7642e2b")
+	)
+	(junction
 		(at 153.67 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "edb1e716-fdbc-4024-980b-2b13b2d99fa2")
+	)
+	(junction
+		(at 81.28 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7c16808-86be-4a80-b6e6-7a6ec66af431")
 	)
 	(no_connect
 		(at 106.68 99.06)
@@ -2586,7 +2550,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 93.98) (xy 64.77 95.25)
+			(xy 81.28 93.98) (xy 81.28 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2606,23 +2570,13 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 95.25) (xy 69.85 95.25)
+			(xy 81.28 95.25) (xy 83.82 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "07173704-ccbc-4c9e-a772-f8928bb62ddd")
-	)
-	(wire
-		(pts
-			(xy 265.43 99.06) (xy 271.78 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "092aa553-5a06-4951-83e8-5e36bee8995d")
 	)
 	(wire
 		(pts
@@ -2646,7 +2600,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 95.25) (xy 64.77 95.25)
+			(xy 76.2 95.25) (xy 81.28 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2666,7 +2620,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 96.52) (xy 256.54 99.06)
+			(xy 242.57 96.52) (xy 242.57 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2696,7 +2650,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 99.06) (xy 265.43 105.41)
+			(xy 265.43 99.06) (xy 265.43 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2743,6 +2697,16 @@
 			(type default)
 		)
 		(uuid "29697741-5ea7-4691-bf69-cae09b1aedb2")
+	)
+	(wire
+		(pts
+			(xy 81.28 86.36) (xy 83.82 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f135fe9-0156-4cc5-999c-b7d4b2650540")
 	)
 	(wire
 		(pts
@@ -2836,7 +2800,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 86.36) (xy 64.77 86.36)
+			(xy 76.2 86.36) (xy 81.28 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2853,6 +2817,16 @@
 			(type default)
 		)
 		(uuid "39be544b-1849-4e43-a2e8-41317657eab0")
+	)
+	(wire
+		(pts
+			(xy 265.43 99.06) (xy 274.32 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc20581-ee8a-4214-b03a-1842c7c25fcd")
 	)
 	(wire
 		(pts
@@ -2876,7 +2850,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 88.9) (xy 250.19 88.9)
+			(xy 229.87 88.9) (xy 236.22 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2913,16 +2887,6 @@
 			(type default)
 		)
 		(uuid "499b8a96-7646-40c4-9b8a-7b02171293f7")
-	)
-	(wire
-		(pts
-			(xy 69.85 93.98) (xy 69.85 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4aaf40d0-a053-4b9c-8515-1fbfdd06444b")
 	)
 	(wire
 		(pts
@@ -2986,16 +2950,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 99.06) (xy 274.32 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59fa5b90-e555-4662-9a8b-2e6c8d2fb7ec")
-	)
-	(wire
-		(pts
 			(xy 162.56 105.41) (xy 163.83 105.41)
 		)
 		(stroke
@@ -3056,13 +3010,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 95.25) (xy 81.28 95.25)
+			(xy 242.57 99.06) (xy 257.81 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f77c83a-d380-40cf-b8ec-33d1b9586bb4")
+		(uuid "6fe15574-70ff-4c4a-b077-fa6911b2f9fe")
 	)
 	(wire
 		(pts
@@ -3073,26 +3027,6 @@
 			(type default)
 		)
 		(uuid "7153245c-fca8-440b-9c1f-5c33a74ab264")
-	)
-	(wire
-		(pts
-			(xy 93.98 74.93) (xy 87.63 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "718b6bc8-da0d-410b-addc-df4a0517c360")
-	)
-	(wire
-		(pts
-			(xy 81.28 95.25) (xy 83.82 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71ae8be3-88cc-4a53-bb6a-43a8a46d13a7")
 	)
 	(wire
 		(pts
@@ -3116,16 +3050,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 86.36) (xy 76.2 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "761c3324-3c42-4451-8bf4-61574639788d")
-	)
-	(wire
-		(pts
 			(xy 222.25 99.06) (xy 222.25 113.03)
 		)
 		(stroke
@@ -3136,7 +3060,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 95.25) (xy 59.69 93.98)
+			(xy 76.2 95.25) (xy 76.2 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3146,7 +3070,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 99.06) (xy 256.54 99.06)
+			(xy 236.22 99.06) (xy 242.57 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3193,6 +3117,16 @@
 			(type default)
 		)
 		(uuid "7c2738d0-8445-4b7b-add1-6eaefb30b974")
+	)
+	(wire
+		(pts
+			(xy 257.81 99.06) (xy 265.43 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81a97106-12be-4167-8a0c-581e4823a5c9")
 	)
 	(wire
 		(pts
@@ -3296,23 +3230,13 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 88.9) (xy 256.54 88.9)
+			(xy 236.22 88.9) (xy 242.57 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a580af4f-00cc-4297-871b-13aaa7ea0fd5")
-	)
-	(wire
-		(pts
-			(xy 76.2 86.36) (xy 81.28 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a72091bc-04ff-4666-951c-0721c1485d66")
 	)
 	(wire
 		(pts
@@ -3323,26 +3247,6 @@
 			(type default)
 		)
 		(uuid "a8e90ca4-4dd9-437b-a98f-d6b2b3fe4730")
-	)
-	(wire
-		(pts
-			(xy 76.2 93.98) (xy 76.2 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acdb86ab-bfc3-4434-ab7c-5ed95cf41c0b")
-	)
-	(wire
-		(pts
-			(xy 81.28 93.98) (xy 81.28 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acddc791-01b0-47f3-8019-c4c05e425d4c")
 	)
 	(wire
 		(pts
@@ -3366,7 +3270,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 96.52) (xy 250.19 96.52)
+			(xy 229.87 96.52) (xy 236.22 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3466,16 +3370,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 86.36) (xy 83.82 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccc445fe-20f9-40b5-ba31-cca3c8856ce1")
-	)
-	(wire
-		(pts
 			(xy 92.71 105.41) (xy 90.17 105.41)
 		)
 		(stroke
@@ -3486,7 +3380,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 96.52) (xy 256.54 96.52)
+			(xy 236.22 96.52) (xy 242.57 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3506,16 +3400,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 95.25) (xy 76.2 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d53054aa-7320-4ba7-bdba-69ed97819477")
-	)
-	(wire
-		(pts
 			(xy 87.63 82.55) (xy 87.63 83.82)
 		)
 		(stroke
@@ -3523,16 +3407,6 @@
 			(type default)
 		)
 		(uuid "d600b201-76f5-4854-b380-b3f04897f580")
-	)
-	(wire
-		(pts
-			(xy 64.77 86.36) (xy 69.85 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6ae4785-0a70-41ee-8988-45796a4f8a42")
 	)
 	(wire
 		(pts
@@ -3553,16 +3427,6 @@
 			(type default)
 		)
 		(uuid "dfca49ac-788f-402b-ab4e-0dfd2aeccfaa")
-	)
-	(wire
-		(pts
-			(xy 87.63 82.55) (xy 93.98 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e110e750-924e-4850-b0b0-c953de88bd38")
 	)
 	(wire
 		(pts
@@ -3643,16 +3507,6 @@
 			(type default)
 		)
 		(uuid "f0423805-5efc-448f-986b-8243e85673eb")
-	)
-	(wire
-		(pts
-			(xy 256.54 99.06) (xy 265.43 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2145d11-ade5-4794-9a4f-cb6c53dc18bc")
 	)
 	(wire
 		(pts
@@ -3824,7 +3678,7 @@
 		)
 		(uuid "b48d42aa-e324-4973-ac62-3d73d79fcee5")
 	)
-	(label "SENSE-"
+	(label "Vout"
 		(at 142.24 114.3 0)
 		(effects
 			(font
@@ -3854,7 +3708,7 @@
 		)
 		(uuid "ccd2f1f9-cddc-4998-be39-c020415d27d5")
 	)
-	(label "SENSE-"
+	(label "Vout"
 		(at 222.25 125.73 270)
 		(effects
 			(font
@@ -3883,7 +3737,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06a0725c-c106-44a7-8d7a-eb1fd3b8a09e")
-		(property "Reference" "CinA-E10"
+		(property "Reference" "E_C5"
 			(at 86.614 122.174 0)
 			(effects
 				(font
@@ -3937,7 +3791,7 @@
 		(instances
 			(project "Si-LTC7800"
 				(path "/1cd71796-7ea7-422d-abea-f4fbd11d4a75"
-					(reference "CinA-E10")
+					(reference "E_C5")
 					(unit 1)
 				)
 			)
@@ -4171,7 +4025,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "115859d6-8aa8-403d-8147-d3bd3433d8ba")
-		(property "Reference" "CinA-E3"
+		(property "Reference" "E_C1"
 			(at 94.488 104.648 90)
 			(effects
 				(font
@@ -4225,7 +4079,7 @@
 		(instances
 			(project "Si-LTC7800"
 				(path "/1cd71796-7ea7-422d-abea-f4fbd11d4a75"
-					(reference "CinA-E3")
+					(reference "E_C1")
 					(unit 1)
 				)
 			)
@@ -4233,84 +4087,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 76.2 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "13c1b6d4-fac9-4096-b6a3-ebab5589b5a9")
-		(property "Reference" "CinA-E1"
-			(at 72.898 87.884 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 74.422 88.646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 77.1652 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 76.2 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "829bba87-443f-48ec-8718-631344b729b2")
-		)
-		(pin "1"
-			(uuid "fbfba5da-4ee6-48bd-9d5e-a067bd3deaaa")
-		)
-		(instances
-			(project "Si-LTC7800"
-				(path "/1cd71796-7ea7-422d-abea-f4fbd11d4a75"
-					(reference "CinA-E1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 64.77 90.17 180)
+		(at 81.28 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "26acc98c-128f-466e-80b0-c24222019674")
-		(property "Reference" "CinA-E5"
-			(at 68.072 92.456 0)
+		(property "Reference" "Ex_Cin2"
+			(at 84.582 92.456 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4319,7 +4104,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 66.548 91.694 0)
+			(at 83.058 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4328,7 +4113,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 63.8048 86.36 0)
+			(at 80.3148 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4337,7 +4122,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 90.17 0)
+			(at 81.28 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4346,7 +4131,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 64.77 90.17 0)
+			(at 81.28 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4363,7 +4148,7 @@
 		(instances
 			(project "Si-LTC7800"
 				(path "/1cd71796-7ea7-422d-abea-f4fbd11d4a75"
-					(reference "CinA-E5")
+					(reference "Ex_Cin2")
 					(unit 1)
 				)
 			)
@@ -4995,7 +4780,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 256.54 92.71 180)
+		(at 242.57 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5003,7 +4788,7 @@
 		(dnp no)
 		(uuid "640af020-0209-4a33-8fa4-046ce12ae48d")
 		(property "Reference" "Cout1"
-			(at 260.096 91.186 0)
+			(at 246.126 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5012,7 +4797,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 260.35 93.9799 0)
+			(at 246.38 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5021,7 +4806,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 255.5748 88.9 0)
+			(at 241.6048 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5030,7 +4815,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 256.54 92.71 0)
+			(at 242.57 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5039,7 +4824,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 256.54 92.71 0)
+			(at 242.57 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5071,7 +4856,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69b2e11a-7895-4d68-b2b3-c4526fd39b6a")
-		(property "Reference" "CinA-E7"
+		(property "Reference" "E_C2"
 			(at 152.4 58.166 0)
 			(effects
 				(font
@@ -5125,7 +4910,7 @@
 		(instances
 			(project "Si-LTC7800"
 				(path "/1cd71796-7ea7-422d-abea-f4fbd11d4a75"
-					(reference "CinA-E7")
+					(reference "E_C2")
 					(unit 1)
 				)
 			)
@@ -5225,7 +5010,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 166.37 118.11 0)
 			(effects
 				(font
@@ -5292,7 +5077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 168.91 90.17 0)
 			(effects
 				(font
@@ -5410,7 +5195,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78268244-c4f5-48bf-877f-8175136f2dbd")
-		(property "Reference" "CinA-E9"
+		(property "Reference" "E_C4"
 			(at 219.456 117.856 0)
 			(effects
 				(font
@@ -5464,7 +5249,7 @@
 		(instances
 			(project "Si-LTC7800"
 				(path "/1cd71796-7ea7-422d-abea-f4fbd11d4a75"
-					(reference "CinA-E9")
+					(reference "E_C4")
 					(unit 1)
 				)
 			)
@@ -5472,15 +5257,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 59.69 90.17 0)
+		(at 76.2 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7867f06a-bd82-4ebc-a780-b6c7a411a7c9")
-		(property "Reference" "CinA-1"
-			(at 52.07 88.392 0)
+		(property "Reference" "CinA1"
+			(at 68.58 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5489,7 +5274,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 51.816 90.424 0)
+			(at 68.326 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5498,7 +5283,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 60.6552 93.98 0)
+			(at 77.1652 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5507,7 +5292,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 90.17 0)
+			(at 76.2 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5516,7 +5301,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 59.69 90.17 0)
+			(at 76.2 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5533,7 +5318,7 @@
 		(instances
 			(project "Si-LTC7800"
 				(path "/1cd71796-7ea7-422d-abea-f4fbd11d4a75"
-					(reference "CinA-1")
+					(reference "CinA1")
 					(unit 1)
 				)
 			)
@@ -5904,7 +5689,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 265.43 109.22 0)
+		(at 265.43 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5913,7 +5698,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a58c67b-d0f0-4d67-87a8-1655aa3a67d2")
 		(property "Reference" "RLoad1"
-			(at 267.97 107.9499 0)
+			(at 267.97 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5922,7 +5707,7 @@
 			)
 		)
 		(property "Value" "5Ohm"
-			(at 267.97 110.4899 0)
+			(at 267.97 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5931,7 +5716,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 263.652 109.22 90)
+			(at 263.652 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5940,7 +5725,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 265.43 109.22 0)
+			(at 265.43 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5949,7 +5734,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 265.43 109.22 0)
+			(at 265.43 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6004,6 +5789,7 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -6264,15 +6050,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 243.84 92.71 0)
+		(at 229.87 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "9143035c-7abd-4928-aca2-6729f3a2333f")
-		(property "Reference" "CinA-E12"
-			(at 239.776 90.424 0)
+		(property "Reference" "Ex_Cout1"
+			(at 225.806 90.424 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -6281,7 +6067,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 242.062 91.186 0)
+			(at 228.092 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6290,7 +6076,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 244.8052 96.52 0)
+			(at 230.8352 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6299,7 +6085,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 243.84 92.71 0)
+			(at 229.87 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6308,7 +6094,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 243.84 92.71 0)
+			(at 229.87 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6325,7 +6111,7 @@
 		(instances
 			(project "Si-LTC7800"
 				(path "/1cd71796-7ea7-422d-abea-f4fbd11d4a75"
-					(reference "CinA-E12")
+					(reference "Ex_Cout1")
 					(unit 1)
 				)
 			)
@@ -6799,75 +6585,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 69.85 90.17 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a1e57557-2efc-4395-8ad6-76fbddeb3fa7")
-		(property "Reference" "CinA-E4"
-			(at 73.152 92.456 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 71.628 91.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 68.8848 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 69.85 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4e5c46ee-0acc-4f3e-8256-7b4dcfe0008f")
-		)
-		(pin "1"
-			(uuid "8585e868-273e-4ab6-896a-d7bab8880ccc")
-		)
-		(instances
-			(project "Si-LTC7800"
-				(path "/1cd71796-7ea7-422d-abea-f4fbd11d4a75"
-					(reference "CinA-E4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 177.8 119.38 0)
 		(unit 1)
@@ -7007,7 +6724,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aae03fa6-7a90-4bca-9c3d-2cb8d53ea0f2")
-		(property "Reference" "CinA-E13"
+		(property "Reference" "E_C6"
 			(at 91.694 146.304 0)
 			(effects
 				(font
@@ -7061,76 +6778,7 @@
 		(instances
 			(project "Si-LTC7800"
 				(path "/1cd71796-7ea7-422d-abea-f4fbd11d4a75"
-					(reference "CinA-E13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 93.98 78.74 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b158b98e-0a60-42b3-8c81-85414c2b0633")
-		(property "Reference" "CinA-E6"
-			(at 97.282 81.026 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 95.758 80.264 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 93.0148 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 93.98 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "53f44b85-e9ab-49e9-a231-116e608173d5")
-		)
-		(pin "1"
-			(uuid "ae7000e6-5520-468d-8ad4-c9721bc1ef88")
-		)
-		(instances
-			(project "Si-LTC7800"
-				(path "/1cd71796-7ea7-422d-abea-f4fbd11d4a75"
-					(reference "CinA-E6")
+					(reference "E_C6")
 					(unit 1)
 				)
 			)
@@ -7348,7 +6996,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c55248c5-7668-4344-986f-e5fe1fcdf3b8")
-		(property "Reference" "CinA-2"
+		(property "Reference" "CinA2"
 			(at 88.9 88.138 0)
 			(effects
 				(font
@@ -7402,7 +7050,7 @@
 		(instances
 			(project "Si-LTC7800"
 				(path "/1cd71796-7ea7-422d-abea-f4fbd11d4a75"
-					(reference "CinA-2")
+					(reference "CinA2")
 					(unit 1)
 				)
 			)
@@ -7486,7 +7134,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cde53c37-f8f0-466b-956b-43601ee6cfa5")
-		(property "Reference" "CinA-E8"
+		(property "Reference" "E_C3"
 			(at 161.036 101.346 0)
 			(effects
 				(font
@@ -7540,7 +7188,7 @@
 		(instances
 			(project "Si-LTC7800"
 				(path "/1cd71796-7ea7-422d-abea-f4fbd11d4a75"
-					(reference "CinA-E8")
+					(reference "E_C3")
 					(unit 1)
 				)
 			)
@@ -7555,7 +7203,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4561ccb-a70a-470d-a651-a710558aab16")
-		(property "Reference" "CinA-E14"
+		(property "Reference" "Ex_Cin1"
 			(at 80.772 81.026 0)
 			(effects
 				(font
@@ -7609,7 +7257,7 @@
 		(instances
 			(project "Si-LTC7800"
 				(path "/1cd71796-7ea7-422d-abea-f4fbd11d4a75"
-					(reference "CinA-E14")
+					(reference "Ex_Cin1")
 					(unit 1)
 				)
 			)
@@ -7617,7 +7265,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 271.78 99.06 0)
+		(at 257.81 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7625,7 +7273,7 @@
 		(dnp no)
 		(uuid "d7cc0ae1-440d-4141-8492-d4ea69458bea")
 		(property "Reference" "TP_VOUT1"
-			(at 270.764 90.932 0)
+			(at 256.794 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7634,7 +7282,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 271.018 93.472 0)
+			(at 257.048 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7643,7 +7291,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
-			(at 276.86 99.06 0)
+			(at 262.89 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7652,7 +7300,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 276.86 99.06 0)
+			(at 262.89 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7661,7 +7309,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 271.78 99.06 0)
+			(at 257.81 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8046,84 +7694,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 81.28 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "df306cac-3c47-48dc-8512-d74451085a87")
-		(property "Reference" "CinA-E2"
-			(at 77.978 87.884 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 79.502 88.646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 82.2452 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 81.28 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f468723b-3a7d-4864-a523-35195e7a424f")
-		)
-		(pin "1"
-			(uuid "878b804d-d69d-4588-aed6-d762921879d5")
-		)
-		(instances
-			(project "Si-LTC7800"
-				(path "/1cd71796-7ea7-422d-abea-f4fbd11d4a75"
-					(reference "CinA-E2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 250.19 92.71 0)
+		(at 236.22 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e7443dc5-19d8-418c-b878-58e55cd36adf")
-		(property "Reference" "CinA-E11"
-			(at 246.126 90.424 0)
+		(property "Reference" "Ex_Cout2"
+			(at 232.156 90.424 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8132,7 +7711,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 248.412 91.186 0)
+			(at 234.442 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8141,7 +7720,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 251.1552 96.52 0)
+			(at 237.1852 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8150,7 +7729,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 92.71 0)
+			(at 236.22 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8159,7 +7738,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 250.19 92.71 0)
+			(at 236.22 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8176,7 +7755,7 @@
 		(instances
 			(project "Si-LTC7800"
 				(path "/1cd71796-7ea7-422d-abea-f4fbd11d4a75"
-					(reference "CinA-E11")
+					(reference "Ex_Cout2")
 					(unit 1)
 				)
 			)
@@ -8250,7 +7829,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 256.54 88.9 180)
+		(at 242.57 88.9 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8259,7 +7838,7 @@
 		(fields_autoplaced yes)
 		(uuid "f22bd228-3e96-4cef-bf30-5640fa3bd8cc")
 		(property "Reference" "#PWR013"
-			(at 256.54 82.55 0)
+			(at 242.57 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8268,7 +7847,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 256.54 83.82 0)
+			(at 242.57 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8276,7 +7855,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 88.9 0)
+			(at 242.57 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8285,7 +7864,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 88.9 0)
+			(at 242.57 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8294,7 +7873,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 88.9 0)
+			(at 242.57 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8316,7 +7895,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 265.43 113.03 0)
+		(at 265.43 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8325,7 +7904,7 @@
 		(fields_autoplaced yes)
 		(uuid "f78e03fc-5c8d-411c-8e34-764d5d1aff18")
 		(property "Reference" "#PWR03"
-			(at 265.43 119.38 0)
+			(at 265.43 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8334,7 +7913,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 265.43 118.11 0)
+			(at 265.43 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8342,7 +7921,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 113.03 0)
+			(at 265.43 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8351,7 +7930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 113.03 0)
+			(at 265.43 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8360,7 +7939,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 265.43 113.03 0)
+			(at 265.43 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
