@@ -2436,6 +2436,12 @@
 		(uuid "7fea9b3b-6887-4675-8336-1b22c5f1efd3")
 	)
 	(junction
+		(at 176.53 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80da39af-8b75-4023-b4f6-beda3d54b897")
+	)
+	(junction
 		(at 87.63 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2446,12 +2452,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8318cfaa-6dbd-4014-98f2-07544d2d7f24")
-	)
-	(junction
-		(at 177.8 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "87bbe1df-2f2b-46d8-bf7c-d382787fff9c")
 	)
 	(junction
 		(at 102.87 129.54)
@@ -2751,7 +2751,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 66.04) (xy 177.8 68.58)
+			(xy 176.53 66.04) (xy 176.53 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3251,16 +3251,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 77.47) (xy 176.53 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "803d2e02-6965-48b1-969d-1297555ac5ca")
-	)
-	(wire
-		(pts
 			(xy 257.81 99.06) (xy 265.43 99.06)
 		)
 		(stroke
@@ -3381,13 +3371,13 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 68.58) (xy 177.8 68.58)
+			(xy 176.53 68.58) (xy 201.93 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a860e3a-a1bc-491c-99e3-20ac80861141")
+		(uuid "96e953eb-cf85-44c7-92ce-be9a22fc63bb")
 	)
 	(wire
 		(pts
@@ -3511,7 +3501,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 68.58) (xy 177.8 77.47)
+			(xy 176.53 68.58) (xy 176.53 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3920,7 +3910,7 @@
 		(uuid "54ebe38e-0550-497f-95e1-d59c951cf728")
 	)
 	(label "VIN"
-		(at 177.8 66.04 0)
+		(at 176.53 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4874,7 +4864,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Transistor_Power:BSC100N06LS3G"
+		(property "Footprint" "XT60PW-M:BSC100N06LS3G"
 			(at 198.12 90.17 0)
 			(effects
 				(font
@@ -7034,7 +7024,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Transistor_Power:BSC100N06LS3G"
+		(property "Footprint" "XT60PW-M:BSC100N06LS3G"
 			(at 191.77 123.19 0)
 			(effects
 				(font
