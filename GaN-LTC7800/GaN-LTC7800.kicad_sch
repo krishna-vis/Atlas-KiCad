@@ -503,137 +503,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint_2Pole"
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint_2Pole"
-				(at 0 -1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "2-polar test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_2Pole_0_1"
-				(circle
-					(center -1.778 0)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.778 0)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2886,6 +2755,12 @@
 		(uuid "5a000748-a5a4-4839-ba54-d292ef7cc888")
 	)
 	(junction
+		(at 81.28 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c312793-f8b4-48a8-8279-691da306ec12")
+	)
+	(junction
 		(at 220.98 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2958,18 +2833,6 @@
 		(uuid "8cd0c772-dd10-4af5-9b04-8e4e626e3d2e")
 	)
 	(junction
-		(at 83.82 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93120ed4-60ff-4155-aa67-cd495a6365a5")
-	)
-	(junction
-		(at 78.74 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9602c99b-adba-4fc5-92cd-7be15beb1b17")
-	)
-	(junction
 		(at 82.55 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3000,22 +2863,16 @@
 		(uuid "c7cbe14d-2c89-4b3e-bc1e-96579d9f176e")
 	)
 	(junction
-		(at 176.53 99.06)
+		(at 83.82 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c9ed0304-e723-4bc7-9565-647d40a245fc")
+		(uuid "cafab32c-3901-4a03-8a26-0e2a3c3901bb")
 	)
 	(junction
 		(at 220.98 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d390a861-730d-4c8e-98c1-8254345a6676")
-	)
-	(junction
-		(at 176.53 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "daff017e-0282-4ca7-8557-82a727fa8f78")
 	)
 	(junction
 		(at 53.34 92.71)
@@ -3093,7 +2950,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 91.44) (xy 86.36 91.44)
+			(xy 80.01 91.44) (xy 86.36 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3153,16 +3010,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 127) (xy 83.82 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "135652cb-2192-4807-8b64-9b5ffed8e7a2")
-	)
-	(wire
-		(pts
 			(xy 234.95 128.27) (xy 234.95 129.54)
 		)
 		(stroke
@@ -3173,7 +3020,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 99.06) (xy 57.15 99.06)
+			(xy 55.88 95.25) (xy 53.34 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3223,7 +3070,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 144.78) (xy 88.9 144.78)
+			(xy 81.28 144.78) (xy 88.9 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3233,7 +3080,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 140.97) (xy 78.74 144.78)
+			(xy 81.28 135.89) (xy 81.28 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3253,23 +3100,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 119.38) (xy 168.91 119.38)
+			(xy 167.64 119.38) (xy 168.91 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "25ffe934-7db7-4244-8cfa-9e0529ccfca4")
-	)
-	(wire
-		(pts
-			(xy 160.02 119.38) (xy 160.02 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "261f31dc-af25-4056-b956-be3648bdb3b6")
 	)
 	(wire
 		(pts
@@ -3290,16 +3127,6 @@
 			(type default)
 		)
 		(uuid "2b9cdb0a-1ae7-4a96-bf14-70b91b061d51")
-	)
-	(wire
-		(pts
-			(xy 172.72 99.06) (xy 176.53 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d690350-9ace-4277-b363-40cfe0a77c87")
 	)
 	(wire
 		(pts
@@ -3360,16 +3187,6 @@
 			(type default)
 		)
 		(uuid "359b86d8-a242-4b08-8bbb-136c2e744d5e")
-	)
-	(wire
-		(pts
-			(xy 176.53 99.06) (xy 176.53 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36486278-a2e7-4428-8094-bd679ae58c84")
 	)
 	(wire
 		(pts
@@ -3463,7 +3280,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 83.82) (xy 86.36 83.82)
+			(xy 80.01 83.82) (xy 86.36 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3493,7 +3310,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 116.84) (xy 264.16 116.84)
+			(xy 260.35 116.84) (xy 264.16 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3560,16 +3377,6 @@
 			(type default)
 		)
 		(uuid "70c8da74-06a9-4186-ab68-cbe51e76d0ac")
-	)
-	(wire
-		(pts
-			(xy 78.74 135.89) (xy 83.82 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "732f4d16-e5f4-43df-9916-20f431b6bf74")
 	)
 	(wire
 		(pts
@@ -3653,16 +3460,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 127) (xy 176.53 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83f5e496-413f-42f5-979c-c6b0ac798abc")
-	)
-	(wire
-		(pts
 			(xy 99.06 109.22) (xy 99.06 110.49)
 		)
 		(stroke
@@ -3683,7 +3480,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 97.79) (xy 176.53 99.06)
+			(xy 176.53 97.79) (xy 176.53 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3720,6 +3517,16 @@
 			(type default)
 		)
 		(uuid "9a1f1d6f-1417-4015-8083-bd825d09c025")
+	)
+	(wire
+		(pts
+			(xy 81.28 135.89) (xy 83.82 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bed87f9-2c9a-4874-b4c2-3641b0f3ed9f")
 	)
 	(wire
 		(pts
@@ -3763,6 +3570,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 140.97) (xy 81.28 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a30cf504-4cce-4bc5-ad2e-5c0fb04cd83c")
+	)
+	(wire
+		(pts
 			(xy 220.98 107.95) (xy 234.95 107.95)
 		)
 		(stroke
@@ -3803,13 +3620,13 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 140.97) (xy 78.74 135.89)
+			(xy 80.01 140.97) (xy 81.28 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0776b63-0f0e-4c6a-9c27-42d6785d7d6f")
+		(uuid "af280897-7d85-41d6-a0aa-e51075e23ea0")
 	)
 	(wire
 		(pts
@@ -3863,7 +3680,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 90.17) (xy 168.91 90.17)
+			(xy 167.64 90.17) (xy 168.91 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3983,6 +3800,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 127) (xy 83.82 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e098db39-fecd-4f00-8343-3509982c56d3")
+	)
+	(wire
+		(pts
 			(xy 153.67 107.95) (xy 152.4 107.95)
 		)
 		(stroke
@@ -4000,16 +3827,6 @@
 			(type default)
 		)
 		(uuid "e46e8b81-3bcc-49ec-962c-fdb8cc61dae7")
-	)
-	(wire
-		(pts
-			(xy 162.56 99.06) (xy 162.56 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e70e32df-ff8d-499a-ba51-2986355fe611")
 	)
 	(wire
 		(pts
@@ -4033,7 +3850,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 100.33) (xy 59.69 99.06)
+			(xy 55.88 96.52) (xy 55.88 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4182,7 +3999,7 @@
 		(uuid "6d10a277-b3c9-4520-9a4a-3d7a0e82c028")
 	)
 	(label "TG"
-		(at 162.56 90.17 0)
+		(at 167.64 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4202,7 +4019,7 @@
 		(uuid "8f0389e3-9725-4d7d-a1a2-043cc2f803c4")
 	)
 	(label "BG"
-		(at 160.02 121.92 180)
+		(at 167.64 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4293,7 +4110,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 57.15 104.14 90)
+		(at 53.34 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4301,7 +4118,7 @@
 		(dnp no)
 		(uuid "0150e7a1-1800-40fc-9f7b-77c275ac5076")
 		(property "Reference" "TP_VIN2"
-			(at 56.896 105.918 90)
+			(at 59.69 102.362 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4310,7 +4127,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 55.88 102.2351 90)
+			(at 52.07 98.4251 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4319,7 +4136,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 57.15 104.14 0)
+			(at 53.34 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4328,7 +4145,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 104.14 0)
+			(at 53.34 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4337,7 +4154,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 57.15 104.14 0)
+			(at 53.34 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4366,8 +4183,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06a0725c-c106-44a7-8d7a-eb1fd3b8a09e")
-		(property "Reference" "E_C5"
-			(at 85.344 131.064 0)
+		(property "Reference" "C5_EX1"
+			(at 85.598 126.238 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4420,7 +4237,7 @@
 		(instances
 			(project "GaN-LTC7800"
 				(path "/93124491-db95-4556-86ea-f63d0fd04d91"
-					(reference "E_C5")
+					(reference "C5_EX1")
 					(unit 1)
 				)
 			)
@@ -4654,7 +4471,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "115859d6-8aa8-403d-8147-d3bd3433d8ba")
-		(property "Reference" "E_C1"
+		(property "Reference" "C1_EX1"
 			(at 93.218 113.538 90)
 			(effects
 				(font
@@ -4708,7 +4525,7 @@
 		(instances
 			(project "GaN-LTC7800"
 				(path "/93124491-db95-4556-86ea-f63d0fd04d91"
-					(reference "E_C1")
+					(reference "C1_EX1")
 					(unit 1)
 				)
 			)
@@ -4723,8 +4540,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26acc98c-128f-466e-80b0-c24222019674")
-		(property "Reference" "Ex_Cin2"
-			(at 83.312 101.346 0)
+		(property "Reference" "CinA1_EX1"
+			(at 84.328 101.346 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -4777,7 +4594,7 @@
 		(instances
 			(project "GaN-LTC7800"
 				(path "/93124491-db95-4556-86ea-f63d0fd04d91"
-					(reference "Ex_Cin2")
+					(reference "CinA1_EX1")
 					(unit 1)
 				)
 			)
@@ -4871,7 +4688,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 106.172 0)
+			(at 78.486 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4926,7 +4743,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "424051b4-4e59-49e0-ac2d-582214736482")
-		(property "Reference" "R3"
+		(property "Reference" "RSENSE1"
 			(at 215.9 103.632 90)
 			(effects
 				(font
@@ -4978,7 +4795,7 @@
 		(instances
 			(project "GaN-LTC7800"
 				(path "/93124491-db95-4556-86ea-f63d0fd04d91"
-					(reference "R3")
+					(reference "RSENSE1")
 					(unit 1)
 				)
 			)
@@ -4986,7 +4803,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 59.69 100.33 0)
+		(at 55.88 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4994,7 +4811,7 @@
 		(dnp no)
 		(uuid "42b8d964-1c4f-4f51-9c4e-efa290db6413")
 		(property "Reference" "#PWR015"
-			(at 59.69 106.68 0)
+			(at 55.88 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5003,7 +4820,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.738 103.124 0)
+			(at 58.928 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5011,7 +4828,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 100.33 0)
+			(at 55.88 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5020,7 +4837,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 100.33 0)
+			(at 55.88 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5029,7 +4846,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 100.33 0)
+			(at 55.88 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5186,15 +5003,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 256.54 121.92 90)
+		(at 260.35 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4783be5e-1e6b-4cab-b7ee-bfda31c59412")
-		(property "Reference" "TP_VOUT2"
-			(at 255.524 121.412 90)
+		(property "Reference" "GND1"
+			(at 259.334 121.412 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5203,7 +5020,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 255.27 120.0151 90)
+			(at 259.08 120.0151 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5212,7 +5029,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 256.54 121.92 0)
+			(at 260.35 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5221,7 +5038,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 256.54 121.92 0)
+			(at 260.35 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5230,7 +5047,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 256.54 121.92 0)
+			(at 260.35 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5244,7 +5061,7 @@
 		(instances
 			(project "GaN-LTC7800"
 				(path "/93124491-db95-4556-86ea-f63d0fd04d91"
-					(reference "TP_VOUT2")
+					(reference "GND1")
 					(unit 1)
 				)
 			)
@@ -5413,7 +5230,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "583a4ebc-5500-4170-b4d0-8fdc89432078")
-		(property "Reference" "TP_VOUT1"
+		(property "Reference" "VOUT1"
 			(at 257.556 103.378 90)
 			(effects
 				(font
@@ -5464,7 +5281,7 @@
 		(instances
 			(project "GaN-LTC7800"
 				(path "/93124491-db95-4556-86ea-f63d0fd04d91"
-					(reference "TP_VOUT1")
+					(reference "VOUT1")
 					(unit 1)
 				)
 			)
@@ -5612,8 +5429,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "640af020-0209-4a33-8fa4-046ce12ae48d")
-		(property "Reference" "Cout1"
-			(at 244.856 100.076 0)
+		(property "Reference" "COUT1"
+			(at 243.586 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5622,7 +5439,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 245.11 102.8699 0)
+			(at 244.348 101.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5666,7 +5483,7 @@
 		(instances
 			(project "GaN-LTC7800"
 				(path "/93124491-db95-4556-86ea-f63d0fd04d91"
-					(reference "Cout1")
+					(reference "COUT1")
 					(unit 1)
 				)
 			)
@@ -5681,7 +5498,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69b2e11a-7895-4d68-b2b3-c4526fd39b6a")
-		(property "Reference" "E_C2"
+		(property "Reference" "C2_EX1"
 			(at 151.13 67.056 0)
 			(effects
 				(font
@@ -5735,7 +5552,7 @@
 		(instances
 			(project "GaN-LTC7800"
 				(path "/93124491-db95-4556-86ea-f63d0fd04d91"
-					(reference "E_C2")
+					(reference "C2_EX1")
 					(unit 1)
 				)
 			)
@@ -5805,140 +5622,6 @@
 			(project "GaN-LTC7800"
 				(path "/93124491-db95-4556-86ea-f63d0fd04d91"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_2Pole")
-		(at 165.1 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6cfaf78c-df2e-4e96-bf1a-787afb7068d2")
-		(property "Reference" "BFET_VGS1"
-			(at 164.846 129.794 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint_2Pole"
-			(at 165.1 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 165.1 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2-polar test point"
-			(at 165.1 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e12c92ca-812b-4cfa-a5de-818a0901763e")
-		)
-		(pin "2"
-			(uuid "747b9f01-8dd3-43bd-b9b9-c884b901a0c3")
-		)
-		(instances
-			(project "GaN-LTC7800"
-				(path "/93124491-db95-4556-86ea-f63d0fd04d91"
-					(reference "BFET_VGS1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_2Pole")
-		(at 167.64 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "707fce21-e767-44e4-84d6-69f01fc0c3f8")
-		(property "Reference" "TFET_VGS1"
-			(at 168.148 101.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint_2Pole"
-			(at 168.91 103.124 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 167.64 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2-polar test point"
-			(at 167.64 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dcbb5526-fa9b-4431-82b1-98c8a0cc618a")
-		)
-		(pin "2"
-			(uuid "c2bd8960-2a3c-4a98-8a1e-d8b77d7e97b6")
-		)
-		(instances
-			(project "GaN-LTC7800"
-				(path "/93124491-db95-4556-86ea-f63d0fd04d91"
-					(reference "TFET_VGS1")
 					(unit 1)
 				)
 			)
@@ -6086,8 +5769,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78268244-c4f5-48bf-877f-8175136f2dbd")
-		(property "Reference" "E_C4"
-			(at 218.186 126.746 0)
+		(property "Reference" "CSENSE_EX1"
+			(at 213.868 133.604 90)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -6140,7 +5823,7 @@
 		(instances
 			(project "GaN-LTC7800"
 				(path "/93124491-db95-4556-86ea-f63d0fd04d91"
-					(reference "E_C4")
+					(reference "CSENSE_EX1")
 					(unit 1)
 				)
 			)
@@ -6364,7 +6047,7 @@
 		(dnp no)
 		(uuid "83438585-2041-45ad-ad7d-32572d4155ae")
 		(property "Reference" "CinB1"
-			(at 78.74 86.106 0)
+			(at 89.662 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6373,7 +6056,7 @@
 			)
 		)
 		(property "Value" "56uF"
-			(at 78.994 88.138 0)
+			(at 90.17 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6433,7 +6116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a58c67b-d0f0-4d67-87a8-1655aa3a67d2")
-		(property "Reference" "RLoad1"
+		(property "Reference" "RLOAD1"
 			(at 266.7 111.7599 0)
 			(effects
 				(font
@@ -6487,7 +6170,7 @@
 		(instances
 			(project "GaN-LTC7800"
 				(path "/93124491-db95-4556-86ea-f63d0fd04d91"
-					(reference "RLoad1")
+					(reference "RLOAD1")
 					(unit 1)
 				)
 			)
@@ -6737,7 +6420,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 108.204 90)
+			(at 85.852 111.506 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6793,7 +6476,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9143035c-7abd-4928-aca2-6729f3a2333f")
-		(property "Reference" "Ex_Cout1"
+		(property "Reference" "COUT_EX1"
 			(at 224.536 99.314 0)
 			(effects
 				(font
@@ -6847,7 +6530,7 @@
 		(instances
 			(project "GaN-LTC7800"
 				(path "/93124491-db95-4556-86ea-f63d0fd04d91"
-					(reference "Ex_Cout1")
+					(reference "COUT_EX1")
 					(unit 1)
 				)
 			)
@@ -6988,7 +6671,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 140.97 270)
+		(at 80.01 140.97 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6997,7 +6680,7 @@
 		(fields_autoplaced yes)
 		(uuid "9724cbf1-1677-4e1d-8f98-1de307065240")
 		(property "Reference" "#PWR014"
-			(at 72.39 140.97 0)
+			(at 73.66 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7006,7 +6689,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 140.9699 90)
+			(at 76.2 140.9699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7015,7 +6698,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 140.97 0)
+			(at 80.01 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7024,7 +6707,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 140.97 0)
+			(at 80.01 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7033,7 +6716,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 140.97 0)
+			(at 80.01 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7460,8 +7143,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aae03fa6-7a90-4bca-9c3d-2cb8d53ea0f2")
-		(property "Reference" "E_C6"
-			(at 90.424 155.194 0)
+		(property "Reference" "C6_EX1"
+			(at 90.678 154.178 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -7514,7 +7197,7 @@
 		(instances
 			(project "GaN-LTC7800"
 				(path "/93124491-db95-4556-86ea-f63d0fd04d91"
-					(reference "E_C6")
+					(reference "C6_EX1")
 					(unit 1)
 				)
 			)
@@ -7965,7 +7648,7 @@
 			)
 		)
 		(property "Value" "3.92kOhm"
-			(at 96.52 125.222 0)
+			(at 96.774 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8024,8 +7707,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cde53c37-f8f0-466b-956b-43601ee6cfa5")
-		(property "Reference" "E_C3"
-			(at 159.766 110.236 0)
+		(property "Reference" "C3_EX1"
+			(at 159.258 115.062 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8078,7 +7761,7 @@
 		(instances
 			(project "GaN-LTC7800"
 				(path "/93124491-db95-4556-86ea-f63d0fd04d91"
-					(reference "E_C3")
+					(reference "C3_EX1")
 					(unit 1)
 				)
 			)
@@ -8086,15 +7769,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 76.2 87.63 180)
+		(at 80.01 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d4561ccb-a70a-470d-a651-a710558aab16")
-		(property "Reference" "Ex_Cin1"
-			(at 79.502 89.916 0)
+		(property "Reference" "CinB1_EX1"
+			(at 78.994 85.852 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -8103,7 +7786,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 77.978 89.154 0)
+			(at 81.788 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8112,7 +7795,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 75.2348 83.82 0)
+			(at 79.0448 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8121,7 +7804,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 87.63 0)
+			(at 80.01 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8130,7 +7813,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 76.2 87.63 0)
+			(at 80.01 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8147,7 +7830,7 @@
 		(instances
 			(project "GaN-LTC7800"
 				(path "/93124491-db95-4556-86ea-f63d0fd04d91"
-					(reference "Ex_Cin1")
+					(reference "CinB1_EX1")
 					(unit 1)
 				)
 			)
@@ -8163,7 +7846,7 @@
 		(dnp no)
 		(uuid "da7cd7aa-1aea-47d2-9b3c-049cc4a494e7")
 		(property "Reference" "VSource_GND1"
-			(at 34.544 102.87 0)
+			(at 35.56 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8525,7 +8208,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7443dc5-19d8-418c-b878-58e55cd36adf")
-		(property "Reference" "Ex_Cout2"
+		(property "Reference" "COUT_EX2"
 			(at 230.886 99.314 0)
 			(effects
 				(font
@@ -8579,7 +8262,7 @@
 		(instances
 			(project "GaN-LTC7800"
 				(path "/93124491-db95-4556-86ea-f63d0fd04d91"
-					(reference "Ex_Cout2")
+					(reference "COUT_EX2")
 					(unit 1)
 				)
 			)
@@ -8725,7 +8408,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f78e03fc-5c8d-411c-8e34-764d5d1aff18")
 		(property "Reference" "#PWR03"
 			(at 264.16 123.19 0)
@@ -8737,7 +8419,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 264.16 121.92 0)
+			(at 267.208 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8792,7 +8474,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd52c290-f1ea-4940-9f57-e4be6d9739bd")
-		(property "Reference" "C4"
+		(property "Reference" "CSENSE1"
 			(at 215.9 118.618 90)
 			(effects
 				(font
@@ -8844,7 +8526,7 @@
 		(instances
 			(project "GaN-LTC7800"
 				(path "/93124491-db95-4556-86ea-f63d0fd04d91"
-					(reference "C4")
+					(reference "CSENSE1")
 					(unit 1)
 				)
 			)
