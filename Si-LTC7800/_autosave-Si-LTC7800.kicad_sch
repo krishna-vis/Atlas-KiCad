@@ -4203,8 +4203,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14faac6a-2f28-43fc-8e3a-78a7e758066a")
-		(property "Reference" "J3"
-			(at 252.984 111.506 90)
+		(property "Reference" "TP_VOUT2"
+			(at 248.666 108.458 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4212,8 +4212,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TP_VOUT2"
-			(at 249.174 114.808 90)
+		(property "Value" "~"
+			(at 248.92 110.744 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4254,7 +4254,7 @@
 		(instances
 			(project "Si-LTC7800"
 				(path "/1cd71796-7ea7-422d-abea-f4fbd11d4a75"
-					(reference "J3")
+					(reference "TP_VOUT2")
 					(unit 1)
 				)
 			)
@@ -4268,10 +4268,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1bb04fcf-c3f6-459f-997c-4668bab94e70")
-		(property "Reference" "J2"
-			(at 260.35 93.3449 90)
+		(property "Reference" "TP_VOUT1"
+			(at 259.842 94.742 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4279,7 +4278,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TP_VOUT1"
+		(property "Value" "~"
 			(at 260.35 95.8849 90)
 			(effects
 				(font
@@ -4321,7 +4320,7 @@
 		(instances
 			(project "Si-LTC7800"
 				(path "/1cd71796-7ea7-422d-abea-f4fbd11d4a75"
-					(reference "J2")
+					(reference "TP_VOUT1")
 					(unit 1)
 				)
 			)
@@ -5318,10 +5317,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "77d2a7c5-eb22-4ff5-9f4e-d9d6c69bbde6")
-		(property "Reference" "J1"
-			(at 60.96 78.1049 90)
+		(property "Reference" "TP_VIN1"
+			(at 60.706 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5329,7 +5327,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TP_VIN1"
+		(property "Value" "~"
 			(at 60.96 80.6449 90)
 			(effects
 				(font
@@ -5371,7 +5369,7 @@
 		(instances
 			(project ""
 				(path "/1cd71796-7ea7-422d-abea-f4fbd11d4a75"
-					(reference "J1")
+					(reference "TP_VIN1")
 					(unit 1)
 				)
 			)
@@ -7338,8 +7336,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c62ec03a-00e6-4a07-9ae9-bbd180179733")
-		(property "Reference" "J4"
-			(at 54.864 92.456 90)
+		(property "Reference" "TP_VIN2"
+			(at 52.07 92.202 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7347,8 +7345,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TP_VOUT2"
-			(at 51.054 95.758 90)
+		(property "Value" "~"
+			(at 57.912 93.472 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7389,7 +7387,7 @@
 		(instances
 			(project "Si-LTC7800"
 				(path "/1cd71796-7ea7-422d-abea-f4fbd11d4a75"
-					(reference "J4")
+					(reference "TP_VIN2")
 					(unit 1)
 				)
 			)
