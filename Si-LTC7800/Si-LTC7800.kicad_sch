@@ -4824,7 +4824,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XT60PW-M:BSC100N06LS3G"
+		(property "Footprint" "Transistor_Power:BSC100N06LS3G"
 			(at 198.12 90.17 0)
 			(effects
 				(font
@@ -5816,7 +5816,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN50P400X300X80-21N"
+		(property "Footprint" "Library:QFN50P400X300X80-21N"
 			(at 129.032 104.902 90)
 			(effects
 				(font
@@ -6981,7 +6981,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XT60PW-M:BSC100N06LS3G"
+		(property "Footprint" "Transistor_Power:BSC100N06LS3G"
 			(at 191.77 123.19 0)
 			(effects
 				(font

@@ -1,4 +1,4 @@
-26743908244766647
+26747434978114900
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2820,6 +2820,20 @@ speaker CUI
 0
 2
 2
+Buzzer_Beeper
+Untitled
+
+
+0
+0
+0
+Buzzer_Beeper
+Untitled_1
+
+
+0
+0
+0
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -70615,6 +70629,13 @@ Yellow 5381 Series LED
 0
 2
 2
+Library
+QFN50P400X300X80-21N
+
+
+0
+21
+21
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -80569,13 +80590,6 @@ QFN NoLead
 0
 116
 81
-Package_DFN_QFN
-QFN50P400X300X80-21N
-
-
-0
-21
-21
 Package_DFN_QFN
 Qorvo_DFN-8-1EP_2x2mm_P0.5mm
 DFN 8 2x2mm, 0.5mm http://www.qorvo.com/products/d/da000896
