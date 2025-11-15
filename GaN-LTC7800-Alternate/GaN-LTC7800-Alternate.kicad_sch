@@ -2373,12 +2373,6 @@
 		(uuid "2c14baf8-12f8-4320-8c2c-638793f539d6")
 	)
 	(junction
-		(at 176.53 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "39907d09-2701-4a4b-9b1b-065aca40c6c0")
-	)
-	(junction
 		(at 88.9 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2475,6 +2469,12 @@
 		(uuid "7da93269-7d3f-428c-8d0f-3cded65831b6")
 	)
 	(junction
+		(at 176.53 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f74943b-8acb-4ec5-b7f2-bbb90717f3ac")
+	)
+	(junction
 		(at 176.53 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2491,6 +2491,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8cd0c772-dd10-4af5-9b04-8e4e626e3d2e")
+	)
+	(junction
+		(at 176.53 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "953e92ff-ff62-4805-bc0d-e4cb0c61f7f1")
 	)
 	(junction
 		(at 82.55 104.14)
@@ -2527,12 +2533,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cafab32c-3901-4a03-8a26-0e2a3c3901bb")
-	)
-	(junction
-		(at 176.53 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1d6b0a7-772b-4055-8a3a-902f8bc95a9b")
 	)
 	(junction
 		(at 220.98 107.95)
@@ -2626,26 +2626,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 87.63) (xy 181.61 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06d1180f-259d-4210-8fd7-6466bedeeb5a")
-	)
-	(wire
-		(pts
-			(xy 181.61 116.84) (xy 181.61 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08fcd34b-5eef-4018-9d72-a89f48a5c6bd")
-	)
-	(wire
-		(pts
 			(xy 88.9 109.22) (xy 91.44 109.22)
 		)
 		(stroke
@@ -2666,7 +2646,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 121.92) (xy 176.53 128.27)
+			(xy 176.53 121.92) (xy 176.53 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2703,16 +2683,6 @@
 			(type default)
 		)
 		(uuid "145ca27c-e0d4-4d41-9679-5a780b13692a")
-	)
-	(wire
-		(pts
-			(xy 181.61 121.92) (xy 176.53 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16517ac8-4861-413f-86ab-7aa449698db9")
 	)
 	(wire
 		(pts
@@ -2886,6 +2856,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 92.71) (xy 176.53 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bbaf262-80ae-445d-b497-523a439ab2b9")
+	)
+	(wire
+		(pts
 			(xy 234.95 105.41) (xy 241.3 105.41)
 		)
 		(stroke
@@ -2933,6 +2913,16 @@
 			(type default)
 		)
 		(uuid "44d5975e-90cb-4051-8ea4-bdb197ed2fea")
+	)
+	(wire
+		(pts
+			(xy 176.53 93.98) (xy 176.53 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4520455e-c8a8-4671-ad19-266494ef0b77")
 	)
 	(wire
 		(pts
@@ -3093,6 +3083,16 @@
 			(type default)
 		)
 		(uuid "78e591dd-599a-4abe-95b7-92903cfb46e4")
+	)
+	(wire
+		(pts
+			(xy 181.61 123.19) (xy 176.53 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "797bdcd1-a195-4603-987d-15c65df67701")
 	)
 	(wire
 		(pts
@@ -3276,16 +3276,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 92.71) (xy 176.53 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a669a0b5-9b3e-4e86-a422-7cb0517fdfb1")
-	)
-	(wire
-		(pts
 			(xy 96.52 144.78) (xy 101.6 144.78)
 		)
 		(stroke
@@ -3323,6 +3313,16 @@
 			(type default)
 		)
 		(uuid "af280897-7d85-41d6-a0aa-e51075e23ea0")
+	)
+	(wire
+		(pts
+			(xy 176.53 123.19) (xy 176.53 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2487e84-1863-437a-ba05-99faae958bc3")
 	)
 	(wire
 		(pts
@@ -3466,6 +3466,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 93.98) (xy 176.53 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6bac6e2-7c89-483d-ad38-0f6574cb2678")
+	)
+	(wire
+		(pts
 			(xy 91.44 114.3) (xy 88.9 114.3)
 		)
 		(stroke
@@ -3473,6 +3483,16 @@
 			(type default)
 		)
 		(uuid "da94d86b-16de-432c-9131-b49a6a2726c2")
+	)
+	(wire
+		(pts
+			(xy 181.61 87.63) (xy 181.61 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc5eb8f9-eb31-4eba-b6b4-af9e1acf1b34")
 	)
 	(wire
 		(pts
@@ -3526,6 +3546,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 116.84) (xy 181.61 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5bf2f7d-2765-4b93-9bf8-91e10e4477cb")
+	)
+	(wire
+		(pts
 			(xy 228.6 105.41) (xy 234.95 105.41)
 		)
 		(stroke
@@ -3563,16 +3593,6 @@
 			(type default)
 		)
 		(uuid "f043a750-b0f2-4223-87ee-aa19a94c6a65")
-	)
-	(wire
-		(pts
-			(xy 181.61 92.71) (xy 176.53 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4460f68-2b0c-4277-850b-6592474864da")
 	)
 	(wire
 		(pts
@@ -4238,204 +4258,6 @@
 		)
 	)
 	(symbol
-		(lib_id "EPC2014C:EPC2014C")
-		(at 173.99 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ddff60f-195d-4c2c-857b-cac31287ea1f")
-		(property "Reference" "Q2"
-			(at 185.42 110.7692 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EPC2014C"
-			(at 185.42 113.3092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "XT60PW-M:TRANS_EPC2014C"
-			(at 173.99 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 173.99 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "EPC"
-			(at 173.99 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.815mm"
-			(at 173.99 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "Die EPC"
-			(at 173.99 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 173.99 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/EPC2014C/EPC/view-part/?ref=eda"
-			(at 173.99 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 173.99 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N/A"
-			(at 173.99 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EPC2014C/EPC/view-part/?ref=snap"
-			(at 173.99 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "EPC2014C"
-			(at 173.99 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-Channel 40 V 10A (Ta) - Surface Mount Die Outline (5-Solder Bar)"
-			(at 173.99 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 173.99 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "EPC"
-			(at 173.99 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "049f0257-8144-4ef0-a730-25e21b531bc6")
-		)
-		(pin "2"
-			(uuid "de26170d-7782-4648-b45b-a195c421a0dc")
-		)
-		(pin "4"
-			(uuid "9cf8e76b-dbde-48ce-a827-8d3d8d89b44d")
-		)
-		(pin "3"
-			(uuid "add0ffce-d2ef-4884-860a-272af29cdd76")
-		)
-		(pin "5"
-			(uuid "9786d283-dac3-4bbe-b8d3-05b32bf6395f")
-		)
-		(instances
-			(project "GaN-LTC7800"
-				(path "/93124491-db95-4556-86ea-f63d0fd04d91"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 80.01 99.06 180)
 		(unit 1)
@@ -4972,6 +4794,204 @@
 		)
 	)
 	(symbol
+		(lib_id "EPC2014C:EPC2014C")
+		(at 173.99 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "547d86b8-a04e-4b76-a6c3-7081c25d2a40")
+		(property "Reference" "Q2"
+			(at 185.42 110.7692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EPC2014C"
+			(at 185.42 113.3092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XT60PW-M:TRANS_EPC2014C"
+			(at 173.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "EPC"
+			(at 173.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.815mm"
+			(at 173.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Die EPC"
+			(at 173.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 173.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/EPC2014C/EPC/view-part/?ref=eda"
+			(at 173.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 173.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "N/A"
+			(at 173.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EPC2014C/EPC/view-part/?ref=snap"
+			(at 173.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "EPC2014C"
+			(at 173.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "N-Channel 40 V 10A (Ta) - Surface Mount Die Outline (5-Solder Bar)"
+			(at 173.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 173.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "EPC"
+			(at 173.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "13b065fa-2f65-4a98-9069-bf98c6670199")
+		)
+		(pin "4"
+			(uuid "8846cd2a-57f4-4fbf-b130-cc6ef2a46bb6")
+		)
+		(pin "1"
+			(uuid "16ff07b8-850c-4c16-acb6-ebfd7c7fdb0e")
+		)
+		(pin "3"
+			(uuid "b3452f0d-3ad9-490a-a37d-198d29981f75")
+		)
+		(pin "5"
+			(uuid "8acd7fb8-3641-48d3-90ba-a8b0441729a6")
+		)
+		(instances
+			(project "GaN-LTC7800-Alternate"
+				(path "/93124491-db95-4556-86ea-f63d0fd04d91"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 256.54 102.87 270)
 		(unit 1)
@@ -5032,6 +5052,204 @@
 			(project "GaN-LTC7800"
 				(path "/93124491-db95-4556-86ea-f63d0fd04d91"
 					(reference "VOUT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPC2014C:EPC2014C")
+		(at 173.99 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ab4bb89-71e2-4845-8af3-2fcbc2388f38")
+		(property "Reference" "Q1"
+			(at 185.42 81.5592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EPC2014C"
+			(at 185.42 84.0992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XT60PW-M:TRANS_EPC2014C"
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "EPC"
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.815mm"
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Die EPC"
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/EPC2014C/EPC/view-part/?ref=eda"
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "N/A"
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EPC2014C/EPC/view-part/?ref=snap"
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "EPC2014C"
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "N-Channel 40 V 10A (Ta) - Surface Mount Die Outline (5-Solder Bar)"
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "EPC"
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "978e4579-2e7b-4a72-9fb5-3451de506da3")
+		)
+		(pin "4"
+			(uuid "c3fdc011-e50d-4c11-a018-ee856290c808")
+		)
+		(pin "1"
+			(uuid "c5ecf752-7fe0-454a-9cb3-ba73a8d3aba5")
+		)
+		(pin "3"
+			(uuid "11d07f82-74f5-4482-b072-2543b3b79823")
+		)
+		(pin "5"
+			(uuid "d9bd0b8e-cc0a-4dd6-8e7e-f6b7f2a422b1")
+		)
+		(instances
+			(project ""
+				(path "/93124491-db95-4556-86ea-f63d0fd04d91"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -5234,204 +5452,6 @@
 			(project "GaN-LTC7800"
 				(path "/93124491-db95-4556-86ea-f63d0fd04d91"
 					(reference "COUT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EPC2014C:EPC2014C")
-		(at 173.99 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69343c7e-ec3c-4595-887b-4c87481e8dc9")
-		(property "Reference" "Q1"
-			(at 185.42 81.5592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EPC2014C"
-			(at 185.42 84.0992 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "XT60PW-M:TRANS_EPC2014C"
-			(at 173.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 173.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "EPC"
-			(at 173.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.815mm"
-			(at 173.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "Die EPC"
-			(at 173.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 173.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/EPC2014C/EPC/view-part/?ref=eda"
-			(at 173.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 173.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N/A"
-			(at 173.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EPC2014C/EPC/view-part/?ref=snap"
-			(at 173.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "EPC2014C"
-			(at 173.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "N-Channel 40 V 10A (Ta) - Surface Mount Die Outline (5-Solder Bar)"
-			(at 173.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 173.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "EPC"
-			(at 173.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a21efbc-9746-4813-8bdd-85af8f3c5fc9")
-		)
-		(pin "2"
-			(uuid "83d8e634-4169-474f-bb43-db4e2fce4adc")
-		)
-		(pin "4"
-			(uuid "a1c6f12b-8471-483c-9e69-7b89b823c563")
-		)
-		(pin "3"
-			(uuid "f1a75aa6-eff6-44d1-b2e5-516d687bf529")
-		)
-		(pin "5"
-			(uuid "a7913216-90d4-4464-8d38-8d17a1cea7e7")
-		)
-		(instances
-			(project ""
-				(path "/93124491-db95-4556-86ea-f63d0fd04d91"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
