@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=LTC7891RUFDM#PBF
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=29
+Version=5.1
+Released=2022-06-28 05:46:53
+Downloaded=2025-10-18 23:39:24
+3D=Y

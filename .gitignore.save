@@ -1,0 +1,16 @@
+# macOS system files
+.DS_Store
+
+# KiCad temporary and backup files
+*.bak
+*.bck
+*.log
+*.lck
+*~
+*.tmp
+*-backups/
+*.zip
+
+# KiCad autosave
+*_autosave.kicad_pcb
+*_autosave

@@ -1,0 +1,37 @@
+
+
+.SUBCKT BSC100N06LS3_L0  drain  gate  source
+
+Lg     gate  g1    3n
+Ld     drain d1    1n
+Ls     source s1   1n
+Rs      s1    s2   546u
+
+Rg     g1    g2     1.3
+M1      d2    g2    s2    s2    DMOS    L=1u   W=1u
+.MODEL DMOS NMOS ( KP= 87.8  VTO=2.5  THETA=0  VMAX=1.5e5  ETA=0.002  LEVEL=3)
+Rd     d1    d2    5.61m TC=7m
+
+Dbd     s2    d2    Dbt
+.MODEL     Dbt    D(BV=72   M=0.3  CJO=1.55n  VJ=0.9V)
+Dbody   s2   21    DBODY
+.MODEL DBODY  D(IS=4p  N=1.06  RS=0.21u  EG=1.12  TT=30n)
+Rdiode  d1  21    1.28m TC=9m
+
+.MODEL   sw    NMOS(VTO=0  KP=10   LEVEL=1)
+Maux      g2   c    a    a   sw
+Maux2     b    d    g2    g2   sw
+Eaux      c    a    d2    g2   1
+Eaux2     d    g2   d2    g2   -1
+Cox       b    d2   0.82n
+.MODEL     DGD    D(M=2.5   CJO=0.82n   VJ=0.7)
+Rpar      b    d2   1Meg
+Dgd       a    d2   DGD
+Rpar2     d2   a    10Meg
+Cgs     g2    s2    2.53n
+
+.ENDS  BSC100N06LS3_L0
+
+******
+
+

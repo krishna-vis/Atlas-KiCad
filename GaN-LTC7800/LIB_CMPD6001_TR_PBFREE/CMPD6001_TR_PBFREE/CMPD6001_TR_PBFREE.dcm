@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CMPD6001_TR_PBFREE
+D Diode 75 V 250mA Surface Mount SOT-23
+K
+F https://my.centralsemi.com/datasheets/CMPD6001-A-C-S_R1.PDF
+$ENDCMP
+#
+#End Doc Library

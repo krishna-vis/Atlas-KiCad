@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC7891RUFDM#PBF
+D 100 V, Low IQ, Synchronous Step-Down Controller for GaN FETs
+K
+F https://www.analog.com/LTC7891/datasheet
+$ENDCMP
+#
+#End Doc Library

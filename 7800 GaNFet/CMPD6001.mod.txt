@@ -1,0 +1,2 @@
+
+.MODEL CMPD6001 D (TT=4.32u IS=51.6p)
